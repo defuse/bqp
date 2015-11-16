@@ -13,13 +13,14 @@ single-page applications are perfect, and projects where they aren't. Here are
 my two biggest concerns with single-page applications:
 
 1.  **Code duplication.** You have to duplicate a lot of code and data modelling
-    in order to make single-page applications secure. Say that you have a page
-    with a configuration options form. When you click the submit button, your
-    javascript code will check the options for validity, and if they're valid,
-    send them up to PHP (or whatever server-side language you're using), where
-    they have to be validated *again* and finally inserted into the database.
-    You need the second validation, because the first validation happens
-    client-side and can't be trusted.
+    in order to make single-page applications secure. 
+
+    Say that you have a page with a configuration options form. When you click
+    the submit button, your javascript code will check the options for validity,
+    and if they're valid, send them up to PHP (or whatever server-side language
+    you're using), where they have to be validated *again* and finally inserted
+    into the database. You need the second validation because the first
+    validation happens client-side and can't be trusted.
 
     This problem isn't actually inherent to single-page applications. It's
     conceivable that a single-page app framework could have you represent the
@@ -35,13 +36,13 @@ my two biggest concerns with single-page applications:
 
     The longer lifetime of single-page applications means there's more chance of
     bugs happening on the client side. Those errors could be silent or unhandled
-    (as most unexpected javascript errors are), and the user might keep trying to
-    use the application without realizing it's in an invalid state. Have you ever
-    been using an online editor/whiteboard for 5 minutes, and then realized what
-    you were writing/drawing wasn't getting sent to the server because of some
-    error, and you lost all of that work? Constantly refreshing the page,
-    although inefficient, resets the client to a valid state, so that it's much
-    less likely for the client side to enter an invalid state.
+    (as most unexpected javascript errors are), and the user might keep trying
+    to use the application without realizing it's in an invalid state. Have you
+    ever been using an online editor/whiteboard for 5 minutes, and then realized
+    what you were writing/drawing wasn't getting sent to the server because of
+    some error, and you lost all of that work? Constantly refreshing the page,
+    although inefficient, resets the client to a valid state, so that even if it
+    does enter an invalid state, it won't stay there for long.
 
     If you're going to have (non-security) bugs, it's helpful if they're on the
     server side. The environment is predictable since you created it, and you can
