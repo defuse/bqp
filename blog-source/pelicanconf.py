@@ -18,7 +18,7 @@ TIMEZONE = 'America/Edmonton'
 
 DEFAULT_LANG = 'en'
 
-THEME = "./themes/nmnlist"
+#THEME = "./themes/nmnlist"
 
 # TODO: enable feeds
 FEED_ALL_ATOM = None
@@ -31,3 +31,5 @@ DEFAULT_PAGINATION = 5
 
 # The blog's static HTML gets rendered to this folder.
 OUTPUT_PATH = '../www/'
+
+DISQUS_SITENAME = "bqpio"
