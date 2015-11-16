@@ -3,9 +3,15 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Taylor Hornby'
-SITENAME = 'Unbounded Error'
-SITEURL = ''
+SITENAME = 'Bound by Error'
 
+# Use relative paths.
+SITEURL = 'https://bqp.io'
+# XXX: I need relative URLs so that the rendered output works the same on my
+# staging domain as it does on the actual domain. Maybe there's a better way?
+RELATIVE_URLS = True
+
+# All of the blog posts go in .md files inside content/.
 PATH = 'content'
 
 TIMEZONE = 'America/Edmonton'
@@ -14,26 +20,14 @@ DEFAULT_LANG = 'en'
 
 THEME = "./themes/nmnlist"
 
-# Feed generation is usually not desired when developing
+# TODO: enable feeds
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+DEFAULT_PAGINATION = 5
 
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
-
-DEFAULT_PAGINATION = 10
-
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
-
+# The blog's static HTML gets rendered to this folder.
 OUTPUT_PATH = '../www/'
