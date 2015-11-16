@@ -47,7 +47,7 @@ my two biggest concerns with single-page applications:
     server side. The environment is predictable since you created it, and you can
     debug it since you're in control of it.
 
-These aren't reasons not to use single-page applications. They're just more
-things to think about when you're deciding if you want to use a single-page
-application or not.
+These aren't reasons to reject single-page applications across the board.
+They're just more things to think about when you're deciding if you want to use
+a single-page application or not.
 
