@@ -7,8 +7,7 @@ SITENAME = 'Bound by Error'
 
 # Use relative paths.
 SITEURL = 'https://bqp.io'
-# XXX: I need relative URLs so that the rendered output works the same on my
-# staging domain as it does on the actual domain. Maybe there's a better way?
+# For the staging environment. ./render-publish.sh changes this!
 RELATIVE_URLS = True
 
 # All of the blog posts go in .md files inside content/.
