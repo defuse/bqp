@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME }} - {{ author }}{% endblock %}
+
+{% block header %}
+    <h1>{{ author }}</h1>
+{% endblock %}
+
+{% block content %}
+
+
+{% if author == "Taylor Hornby" %}
+    {% include "authors/taylor-hornby.html" %}
+{% else %}
+    This author does not have a profile set up.
+{% endif %}
+
+{% endblock %}
+

@@ -17,7 +17,7 @@ TIMEZONE = 'America/Edmonton'
 
 DEFAULT_LANG = 'en'
 
-#THEME = "./themes/nmnlist"
+THEME = "./themes/taylor"
 
 # TODO: enable feeds
 FEED_ALL_ATOM = None
