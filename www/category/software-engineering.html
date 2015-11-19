@@ -1,103 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="utf-8" />
-        <title>Bound by Error - Software Engineering</title>
-        <link rel="stylesheet" href="https://bqp.io/theme/css/main.css" />
+    <title>Bound by Error</title>
 
-        <!--[if IE]>
-            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+    <link rel="stylesheet" href="https://bqp.io/theme/css/main.css" />
+    <meta charset="utf-8" />
+
+    <!-- XXX: re-add all of the ATOM feed things. -->
 </head>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="https://bqp.io/">Bound by Error </a></h1>
-                <nav><ul>
-                    <li class="active"><a href="https://bqp.io/category/software-engineering.html">Software Engineering</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
+<body>
 
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="https://bqp.io/two-arguments-against-single-page-applications.html">Two Arguments Against Single-Page Applications</a></h1>
-<footer class="post-info">
-        <abbr class="published" title="2015-11-15T00:00:00-07:00">
-                Published: Sun 15 November 2015
-        </abbr>
+    <div class="header">
+<h1>Articles in &quot;Software Engineering&quot;</h1>
+    </div>
 
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://bqp.io/author/taylor-hornby.html">Taylor Hornby</a>
-        </address>
-<p>In <a href="https://bqp.io/category/software-engineering.html">Software Engineering</a>.</p>
+    <div class="content">
 
-</footer><!-- /.post-info --><p>Traditionally, websites work by re-loading and re-rendering the entire web page
+    <ol class="post-list">
+            <li>
+                <h2 class="entry-title">
+                    <a href="https://bqp.io/two-arguments-against-single-page-applications.html"
+                       rel="bookmark"
+                       title="Permalink to Two Arguments Against Single-Page Applications">
+                        Two Arguments Against Single-Page Applications
+                    </a>
+                </h2>
+                <div class="entry-content"> <p>Traditionally, websites work by re-loading and re-rendering the entire web page
 for each request. Now that javascript is ubiquitous, it's possible to build
 single-page applications. Instead of re-loading the page for each request,
 javascript makes a request in the background, and then updates the page with the
 results.</p>
-<p>I'm neither for nor against single-page applications. There are projects where
-single-page applications are perfect, and projects where they aren't. Here are
-my two biggest concerns with single-page applications:</p>
-<ol>
-<li>
-<p><strong>Code duplication.</strong> You have to duplicate a lot of code and data modelling
-    in order to make single-page applications secure. </p>
-<p>Say that you have a page with a configuration options form. When you click
-the submit button, your javascript code will check the options for validity,
-and if they're valid, send them up to PHP (or whatever server-side language
-you're using), where they have to be validated <em>again</em> and finally inserted
-into the database. You need the second validation because the first
-validation happens client-side and can't be trusted.</p>
-<p>This problem isn't actually inherent to single-page applications. It's
-conceivable that a single-page app framework could have you represent the
-validation steps in one place, and then automatically generate server-side
-and client-side instances of that validity check. Maybe some frameworks
-already do this.</p>
-</li>
-<li>
-<p><strong>State destruction is useful.</strong> In the traditional model, there's no state
-    stored in the browser except for an identifying cookie. After each request,
-    the client-side state is completely re-created from scratch. Constrast this
-    with single-page applications, where one loaded page can have a lifetime of
-    hours, not just minutes or seconds.</p>
-<p>The longer lifetime of single-page applications means there's more chance of
-bugs happening on the client side. Those errors could be silent or unhandled
-(as most unexpected javascript errors are), and the user might keep trying
-to use the application without realizing it's in an invalid state. Have you
-ever been using an online editor/whiteboard for 5 minutes, and then realized
-what you were writing/drawing wasn't getting sent to the server because of
-some error, and you lost all of that work? Constantly refreshing the page,
-although inefficient, resets the client to a valid state, so that even if it
-does enter an invalid state, it won't stay there for long.</p>
-<p>If you're going to have (non-security) bugs, it's helpful if they're on the
-server side. The environment is predictable since you created it, and you can
-debug it since you're in control of it.</p>
-</li>
-</ol>
-<p>These aren't reasons to reject single-page applications across the board.
-They're just more things to think about when you're deciding if you want to use
-a single-page application or not.</p><p>There are <a href="https://bqp.io/two-arguments-against-single-page-applications.html#disqus_thread">comments</a>.</p>                </article>
-            </aside><!-- /#featured -->
-        <section id="extras" class="body">
-        </section><!-- /#extras -->
+<p>I ...</p> </div><!-- /.entry-content -->
+            </li>
+    </ol>
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
+    </div>
 
-<script type="text/javascript">
-    var disqus_shortname = 'bqpio';
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = 'https://' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-</script>
+    <div class="footer">
+        <div class="footer-left">
+            Categories:
+            <ul>
+                    <li>
+                        <a href="https://bqp.io/category/software-engineering.html">Software Engineering</a>
+                    </li>
+            </ul>
+
+            <a href="/archives.html">Archives</a>
+        </div>
+
+        <div class="footer-right">
+            <!-- XXX: add my twitter and github using image links -->
+            My Other Sites:
+            <ul>
+                <li>
+                    <a href="https://defuse.ca/">
+                        Defuse Security
+                    </a>
+                </li>
+                <li>
+                    <a href="https://crackstation.net/">
+                        CrackStation
+                    </a>
+                </li>
+                <li>
+                    <a href="http://cryptofails.com/">
+                        Crypto Fails
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer-middle">
+            <a href="https://bqp.io">
+                <h1>BQP</h1>
+            </a>
+        </div>
+    </div>
 </body>
 </html>

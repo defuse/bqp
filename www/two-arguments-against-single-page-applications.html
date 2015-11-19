@@ -1,42 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="utf-8" />
-        <title>Two Arguments Against Single-Page Applications</title>
-        <link rel="stylesheet" href="https://bqp.io/theme/css/main.css" />
+      <title>Bound by Error</title>
 
-        <!--[if IE]>
-            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+    <link rel="stylesheet" href="https://bqp.io/theme/css/main.css" />
+    <meta charset="utf-8" />
+
+    <!-- XXX: re-add all of the ATOM feed things. -->
+
+
 </head>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="https://bqp.io/">Bound by Error </a></h1>
-                <nav><ul>
-                    <li class="active"><a href="https://bqp.io/category/software-engineering.html">Software Engineering</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
-<section id="content" class="body">
-  <article>
-    <header>
-      <h1 class="entry-title">
+<body>
+
+    <div class="header">
+    <h1 class="article-title">
         <a href="https://bqp.io/two-arguments-against-single-page-applications.html" rel="bookmark"
-           title="Permalink to Two Arguments Against Single-Page Applications">Two Arguments Against Single-Page Applications</a></h1>
-    </header>
+            title="Permalink to Two Arguments Against Single-Page Applications">Two Arguments Against Single-Page Applications</a>
+    </h1>
+    <div class="article-metadata">
+        Sun 15 November 2015,
+        <!-- XXX: article might have zero authors! -->
+        By
+            <a href="https://bqp.io/author/taylor-hornby.html">Taylor Hornby</a>
+        <!-- XXX: article might have no category?! -->
+        In
+        <a href="https://bqp.io/category/software-engineering.html">Software Engineering</a>
+    </div>
+    <!--
+        XXX: UNIMPLEMENTED TRANSLATIONS
+        
+    -->
+    </div>
 
-    <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2015-11-15T00:00:00-07:00">
-                Published: Sun 15 November 2015
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://bqp.io/author/taylor-hornby.html">Taylor Hornby</a>
-        </address>
-<p>In <a href="https://bqp.io/category/software-engineering.html">Software Engineering</a>.</p>
-
-</footer><!-- /.post-info -->      <p>Traditionally, websites work by re-loading and re-rendering the entire web page
+    <div class="content">
+    <div class="article-text">
+        <p>Traditionally, websites work by re-loading and re-rendering the entire web page
 for each request. Now that javascript is ubiquitous, it's possible to build
 single-page applications. Instead of re-loading the page for each request,
 javascript makes a request in the background, and then updates the page with the
@@ -83,44 +82,66 @@ debug it since you're in control of it.</p>
 <p>These aren't reasons to reject single-page applications across the board.
 They're just more things to think about when you're deciding if you want to use
 a single-page application or not.</p>
-    </div><!-- /.entry-content -->
-    <div class="comments">
-      <h2>Comments !</h2>
-      <div id="disqus_thread"></div>
-      <script type="text/javascript">
-        var disqus_shortname = 'bqpio';
-        var disqus_identifier = 'two-arguments-against-single-page-applications.html';
-        var disqus_url = 'https://bqp.io/two-arguments-against-single-page-applications.html';
-        (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//bqpio.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-      </script>
-      <noscript>Please enable JavaScript to view the comments.</noscript>
     </div>
 
-  </article>
-</section>
-        <section id="extras" class="body">
-        </section><!-- /#extras -->
+        <div class="comments">
+            <h2>Comments</h2>
+            <div id="disqus_thread"></div>
+            <script type="text/javascript">
+                var disqus_shortname = 'bqpio';
+                var disqus_identifier = 'two-arguments-against-single-page-applications.html';
+                var disqus_url = 'https://bqp.io/two-arguments-against-single-page-applications.html';
+                (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//bqpio.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+            </script>
+            <noscript>
+                Please enable JavaScript to view the comments.
+            </noscript>
+        </div>
+    </div>
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
+    <div class="footer">
+        <div class="footer-left">
+            Categories:
+            <ul>
+                    <li>
+                        <a href="https://bqp.io/category/software-engineering.html">Software Engineering</a>
+                    </li>
+            </ul>
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
+            <a href="/archives.html">Archives</a>
+        </div>
 
-<script type="text/javascript">
-    var disqus_shortname = 'bqpio';
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = 'https://' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-</script>
+        <div class="footer-right">
+            <!-- XXX: add my twitter and github using image links -->
+            My Other Sites:
+            <ul>
+                <li>
+                    <a href="https://defuse.ca/">
+                        Defuse Security
+                    </a>
+                </li>
+                <li>
+                    <a href="https://crackstation.net/">
+                        CrackStation
+                    </a>
+                </li>
+                <li>
+                    <a href="http://cryptofails.com/">
+                        Crypto Fails
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer-middle">
+            <a href="https://bqp.io">
+                <h1>BQP</h1>
+            </a>
+        </div>
+    </div>
 </body>
 </html>
