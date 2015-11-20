@@ -8,23 +8,11 @@
 
 {% block content %}
 
-    <ul class="post-list">
-        {% for article in articles_page.object_list %}
-            <li>
-                <h2 class="entry-title">
-                    <a href="{{ SITEURL }}/{{ article.url }}"
-                       rel="bookmark"
-                       title="Permalink to {{ article.title|striptags }}">
-                        {{ article.title }}
-                    </a>
-                </h2>
-                <div class="entry-content"> {{ article.summary }} </div><!-- /.entry-content -->
-            </li>
-        {% endfor %}
-    </ul>
-
-    {% if articles_page.has_other_pages() %}
-        {% include 'pagination.html' %}
-    {% endif %}
+    <dl>
+    {% for article in dates %}
+        <dt>{{ article.locale_date }}:</dt>
+        <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
+    {% endfor %}
+    </dl>
 
 {% endblock content %}
