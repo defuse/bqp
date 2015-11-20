@@ -1,5 +1,6 @@
 Title: Two Arguments Against Single-Page Applications
 Date: 2015-11-15
+Slug: two-arguments-against-single-page-applications
 Category: Software Engineering
 
 Traditionally, websites work by re-loading and re-rendering the entire web page

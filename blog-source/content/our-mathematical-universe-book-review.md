@@ -1,5 +1,6 @@
 Title: Review: Our Mathematical Universe
 Date: 2015-11-19
+Slug: review-our-mathematical-universe
 Category: Book Reviews
 Status: published
 Image: images/planck-cmb.jpg
