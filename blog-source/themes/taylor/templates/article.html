@@ -12,6 +12,10 @@
 {% endblock %}
 
 {% block header %}
+    {% if 'image' in article.metadata %}
+        <img class="article-image" src="{{ SITEURL }}/{{ article.metadata['image'] }}" alt="" />
+    {% endif %}
+
     <h1 class="article-title">
         <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
             title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>

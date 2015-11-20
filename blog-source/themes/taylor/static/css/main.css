@@ -67,6 +67,11 @@ a:visited {
     color: #555555;
 }
 
+.article-image {
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px #888888;
+}
+
 .article-metadata a {
     color: #000000;
 }

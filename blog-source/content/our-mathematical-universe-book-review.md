@@ -2,6 +2,7 @@ Title: Review: Our Mathematical Universe
 Date: 2015-11-19
 Category: Book Reviews
 Status: published
+Image: images/planck-cmb.jpg
 
 The first book I ever read was "Godel, Escher, Bach: An Eternal Golden Braid"
 (GEB) by Douglas Hofstadter. Of course it's not *really* the first book I ever
