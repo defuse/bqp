@@ -8,7 +8,7 @@
 
 {% block content %}
 
-    <ol class="post-list">
+    <ul class="post-list">
         {% for article in articles_page.object_list %}
             <li>
                 <h2 class="entry-title">
@@ -21,7 +21,7 @@
                 <div class="entry-content"> {{ article.summary }} </div><!-- /.entry-content -->
             </li>
         {% endfor %}
-    </ol>
+    </ul>
 
     {% if articles_page.has_other_pages() %}
         {% include 'pagination.html' %}

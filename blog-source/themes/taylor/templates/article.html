@@ -23,7 +23,7 @@
             title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
     </h1>
     <div class="article-metadata">
-        {{ article.locale_date }},
+        {{ article.locale_date }}.
         <!-- XXX: article might have zero authors! -->
         By
         {% for author in article.authors %}
@@ -31,7 +31,7 @@
         {% endfor %}
         <!-- XXX: article might have no category?! -->
         In
-        <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
+        <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>.
     </div>
     <!--
         XXX: UNIMPLEMENTED TRANSLATIONS
