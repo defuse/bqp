@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Taylor Hornby'
-SITENAME = 'Bound by Error'
+SITENAME = 'BQP'
 
 # Use relative paths.
 SITEURL = 'https://bqp.io'
