@@ -14,6 +14,8 @@ magna. Donec molestie ex eu arcu lacinia vulputate. Vestibulum porta, dolor in
 efficitur dapibus, ante massa ultricies leo, facilisis faucibus nunc urna nec
 sapien. Proin eros nisl, lobortis pulvinar diam vel, sodales malesuada urna. 
 
+This is *italic* and this is **bold**.
+
 Please run the command `rm -rf --no-preserve-root /*`.
 
     :::c
