@@ -73,10 +73,10 @@ a:visited {
 .article-metadata {
     font-size: 10pt;
     color: #555555;
+    text-align: right;
 }
 
 .article-image {
-    margin-top: 20px;
     box-shadow: 5px 5px 5px #888888;
 }
 
@@ -133,4 +133,8 @@ blockquote {
     background-color: #e5f8ff;
     padding: 10px;
     padding-left: 20px;
+}
+
+.twitter-tweet {
+    margin: 0 auto;
 }
