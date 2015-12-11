@@ -3,22 +3,58 @@
 @import url("pygment.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 
+/* Get rid of the default padding around the edges of the page. */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    /* This is the background the inner header-and-content box rests on. */
+    background-color: #EEEEEE;
 }
 
 a {
+    /* Blue links are ugly. */
     color: #000000;
 }
 
 a:visited {
+    /* Maybe this is breaking the Web too much...
+     *      TODO: In the future, define this to be a color that works. */
     color: #000000;
 }
 
-.header {
-    text-align: center;
+/* A global div containing both the header and content global divs. */
+.header-and-content {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: white;
+    border-top: solid 1px #CCCCCC;
+    border-left: solid 1px #CCCCCC;
+    box-shadow: 2px 2px 2px #888888;
+    margin-bottom: 20px;
 }
 
+/* The global header div. In articles, it includes the title and image. */
+.header {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* Inside .header, only exists in articles. */
+.article-header {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+/* The global content div. In articles, it includes the body and comments. */
 .content {
     width: 700px;
     margin: 0 auto;
@@ -27,23 +63,26 @@ a:visited {
     padding-bottom: 10px;
 }
 
+/* The global footer div. */
 .footer {
     width: 700px;
     margin: 0 auto;
 
-    border-top: solid black 1px;
     padding-top: 20px;
     padding-bottom: 50px;
 }
 
+/* Categories section of the footer. */
 .footer-left {
     float: left;
 }
 
+/* Website links section of the footer. */
 .footer-right {
     float: right;
 }
 
+/* Middle "BQP" section of the footer. */
 .footer-middle {
     text-align: center;
 }
@@ -57,8 +96,10 @@ a:visited {
     color: #000000;
 }
 
+/* The article title h1. */
 .article-title {
-
+    padding: 0;
+    margin: 0;
 }
 
 .article-title a {
@@ -70,14 +111,17 @@ a:visited {
     color: #000000;
 }
 
+/* The article img (may not be present always). */
+.article-image {
+    /* box-shadow: 2px 2px 2px #888888; */
+    margin-top: 20px;
+}
+
+/* A div with the date, author, and category. */
 .article-metadata {
     font-size: 10pt;
     color: #555555;
     text-align: right;
-}
-
-.article-image {
-    box-shadow: 5px 5px 5px #888888;
 }
 
 .article-metadata a {
