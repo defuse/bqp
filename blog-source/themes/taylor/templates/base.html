@@ -13,15 +13,17 @@
 
 <body>
 
-    <div class="header">
-        {% block header %}
-            <h1>Please define a header block!</h1>
-        {% endblock %}
-    </div>
+    <div class="header-and-content">
+        <div class="header">
+            {% block header %}
+                <h1>Please define a header block!</h1>
+            {% endblock %}
+        </div>
 
-    <div class="content">
-        {% block content %}
-        {% endblock %}
+        <div class="content">
+            {% block content %}
+            {% endblock %}
+        </div>
     </div>
 
     <div class="footer">
