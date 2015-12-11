@@ -67,5 +67,6 @@ Quantum healing probably won't sustain those structures for long. And so,
 eventually, you'll be experiencing *almost* nothing, yet still *something*. You
 will degrade to a point where maybe once every millennium you will feel a mild
 blip of experience, and then you will be out again for another thousand years.
+Weird.
 
 Thought experiments are fun; don't take them too seriously.
