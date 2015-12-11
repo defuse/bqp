@@ -44,8 +44,8 @@ the bullet clears the other side of your skull, you'll probably still be
 experiencing *something*. I mean, it's going to take a while, at least a few
 milliseconds, for all of your brain activity to stop. This is how we turn
 quantum immortality into quantum hell: Why should quantum mechanics save you
-*before* the gun fires, and not after blood starts draining out of the 9mm hole
-in your skull?
+*before* the gun fires, and not after blood starts draining out of a 9mm hole in
+your skull?
 
 To bring more intuition into this version of the thought experiment, let's
 imagine you're dying a slow death. Every day, your condition gets worse, and
