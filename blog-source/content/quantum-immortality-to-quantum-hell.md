@@ -7,8 +7,8 @@ Image: images/sunset.jpg
 
 It's fun to twist thought experiments around and see what kinds of strange
 conclusions you can get out of them. Let's do that with quantum immortality. I'm
-hopefully going to show you why you should be *absolutely terrified* of the
-many-worlds interpretation of quantum mechanics.
+hopefully going to convince you to be *absolutely terrified* of the many-worlds
+interpretation of quantum mechanics.
 
 Surely you've heard of the quantum suicide thought experiment. It's the one
 where you prove to yoyurself that the multiverse exists by stepping in front of
