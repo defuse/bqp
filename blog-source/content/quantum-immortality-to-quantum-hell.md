@@ -11,7 +11,7 @@ hopefully going to convince you to be *absolutely terrified* of the many-worlds
 interpretation of quantum mechanics.
 
 Surely you've heard of the quantum suicide thought experiment. It's the one
-where you prove to yoyurself that the multiverse exists by stepping in front of
+where you prove to yourself that the multiverse exists by stepping in front of
 a loaded gun and having it fire through your gray matter if a quantum coin flip
 comes up heads. The idea is, if you repeat that 100 times, you won't die because
 as soon as you die, your experience stops, so the only *possible* outcome, for
