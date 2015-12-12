@@ -1,4 +1,4 @@
-Title: Review: Our Mathematical Universe
+Title: Book Review: Our Mathematical Universe
 Date: 2015-11-19
 Slug: review-our-mathematical-universe
 Category: Book Reviews
