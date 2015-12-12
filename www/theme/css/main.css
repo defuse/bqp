@@ -2,6 +2,7 @@
 /* Imports. */
 @import url("pygment.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
 
 /* Get rid of the default padding around the edges of the page. */
 html, body {
@@ -12,6 +13,7 @@ html, body {
 body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     /* This is the background the inner header-and-content box rests on. */
+    background-image: url('../images/simple-gray-texture.jpg');
     background-color: #EEEEEE;
 }
 
@@ -34,7 +36,8 @@ a:visited {
 
     padding-left: 80px;
     padding-right: 80px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
     border-top: solid 1px #CCCCCC;
     border-left: solid 1px #CCCCCC;
     box-shadow: 2px 2px 2px #888888;
@@ -58,8 +61,8 @@ a:visited {
 .content {
     width: 700px;
     margin: 0 auto;
-    font-size: 17px;
-    line-height: 32px;
+    font-size: 13pt;
+    line-height: 1.4em;
     padding-bottom: 10px;
 }
 
@@ -67,9 +70,9 @@ a:visited {
 .footer {
     width: 700px;
     margin: 0 auto;
-
     padding-top: 20px;
     padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 /* Categories section of the footer. */
@@ -100,6 +103,7 @@ a:visited {
 .article-title {
     padding: 0;
     margin: 0;
+    font-family: 'Playfair Display', serif;
 }
 
 .article-title a {
@@ -115,6 +119,7 @@ a:visited {
 .article-image {
     /* box-shadow: 2px 2px 2px #888888; */
     margin-top: 20px;
+    border-radius: 5px;
 }
 
 /* A div with the date, author, and category. */
@@ -174,9 +179,6 @@ code {
 /* Block quotes. */
 blockquote {
     line-height: normal;
-    background-color: #e5f8ff;
-    padding: 10px;
-    padding-left: 20px;
 }
 
 .twitter-tweet {
