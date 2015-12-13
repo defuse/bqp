@@ -13,7 +13,7 @@ html, body {
 body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     /* This is the background the inner header-and-content box rests on. */
-    background-image: url('../images/simple-gray-texture.jpg');
+    background-image: url('../images/worn-graph-paper-background.jpg');
     background-color: #EEEEEE;
 }
 
