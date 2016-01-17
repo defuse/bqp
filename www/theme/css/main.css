@@ -66,6 +66,12 @@ a:visited {
     padding-bottom: 10px;
 }
 
+.content img {
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
 /* The global footer div. */
 .footer {
     width: 700px;

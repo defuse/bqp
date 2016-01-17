@@ -34,3 +34,5 @@ OUTPUT_PATH = '../www/'
 DISQUS_SITENAME = "bqpio"
 
 DEFAULT_DATE_FORMAT = "%A, %B %d, %Y"
+
+STATIC_PATHS = ['images']
