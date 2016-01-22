@@ -14,6 +14,7 @@ body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     /* This is the background the inner header-and-content box rests on. */
     background-image: url('../images/eight_horns.png');
+    background-attachment: fixed;
     background-color: #EEEEEE;
 }
 
