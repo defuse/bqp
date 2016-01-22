@@ -13,7 +13,7 @@ html, body {
 body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     /* This is the background the inner header-and-content box rests on. */
-    background-image: url('../images/worn-graph-paper-background.jpg');
+    background-image: url('../images/eight_horns.png');
     background-color: #EEEEEE;
 }
 
@@ -32,15 +32,16 @@ a:visited {
 .header-and-content {
     width: 700px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 60px;
 
     padding-left: 80px;
     padding-right: 80px;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 10px;
+    background-color: white;
+    border-radius: 5px;
     border-top: solid 1px #CCCCCC;
     border-left: solid 1px #CCCCCC;
-    box-shadow: 2px 2px 2px #888888;
+    border: solid 1px #CCCCCC;
+    /* box-shadow: 2px 2px 2px #888888; */
     margin-bottom: 20px;
 }
 
