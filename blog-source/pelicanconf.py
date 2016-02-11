@@ -36,3 +36,5 @@ DISQUS_SITENAME = "bqpio"
 DEFAULT_DATE_FORMAT = "%A, %B %d, %Y"
 
 STATIC_PATHS = ['images']
+
+DELETE_OUTPUT_DIRECTORY = True
