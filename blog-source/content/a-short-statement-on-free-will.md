@@ -27,11 +27,11 @@ forces involved.
 
 For any action a person takes in the "human world", you can take out your
 microscope and look at it in the "particle world." From there you can trace
-backwards in time to see the tree of the things that caused it. If you're
-a dualist, just keep tracing backwards into the soul, following (backwards)
-whatever rules you have for converting changes in soul-states to changes in
-physics-states. Thinking this way turns free will into an empirical question:
-What *are* those causes, and which ones are *most significant*?
+backwards in time to see the tree of things that caused it. If you're a dualist,
+just keep tracing backwards into the soul, following (backwards) whatever rules
+you have for converting changes in soul-states to changes in physics-states.
+Thinking this way turns free will into an empirical question: What *are* those
+causes, and which ones are *most significant*?
 
 If we looked for the answer to this question, what could we possibly find? The
 best way to imagine what we could find is to consider three imaginary universes,
