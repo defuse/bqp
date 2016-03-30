@@ -53,5 +53,6 @@ review, and test the backdoor. This could amount to billions of dollars if the
 government wants backdoors in everything. That's money that could be spent on
 healthcare, disease research, and other things that *actually save lives*. Even
 if the government can convince us of assumptions (1), (2), (3), (4), and (5),
-they *still have to convince us that they can save more lives using the access
-those backdoors provide than we could save by spending that money elsewhere.*
+and are fine with reimbursing the added cost, they *still have to convince us
+that they can save more lives using the access those backdoors provide than we
+could save by spending that money elsewhere.*
