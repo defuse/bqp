@@ -37,11 +37,11 @@ the company no additional profit, since from the user's perspective it is the
 same. The company is therefore paying a tax, in the form of opportunity cost, to
 use encryption in their product.
 
-In response to this tax, companies can either compromise on security by deciding
-not to use encryption at all or by spending less engineering and quality
-assurance effort on the parts of their product that involve cryptography (making
-vulnerabilities more likely), or by choosing not to compromise on security,
-carefully implementing the backdoor, and accepting the loss in profit.
+In response to this tax, companies can compromise on security by deciding not to
+use encryption at all or by spending less engineering and quality assurance
+effort on the parts of their product that involve cryptography. This will make
+users more vulnerable. Or, they can choose not to compromise on security by
+very-carefully implementing the backdoor and accepting the loss in profits.
 
 It's clear from the economic incentives that software written by companies
 mandated to add backdoors will tend to be less secure.
