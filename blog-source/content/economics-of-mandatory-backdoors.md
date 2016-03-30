@@ -3,6 +3,7 @@ Date: 2016-03-29
 Slug: economics-of-mandatory-backdoors
 Category: Security and Cryptography
 Status: published
+Image: images/lockers.jpg
 
 There are plenty of good arguments against mandatory crypto backdoors. All of
 the ones I've seen invoke at least one of the following assumptions:
