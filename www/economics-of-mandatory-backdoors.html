@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-      <title>BQP - QIP 2016</title>
+      <title>BQP - Mandatory Backdoors are a Tax on Encryption</title>
 
     <link rel="stylesheet" href="https://bqp.io/theme/css/main.css" />
     <link rel="icon" href="/theme/images/favicon.ico" type="image/x-icon"/>
@@ -18,8 +18,8 @@
         <div class="header">
     <div class="article-header">
     <h1 class="article-title">
-        <a href="https://bqp.io/qip-2016-conference.html" rel="bookmark"
-            title="Permalink to QIP 2016">QIP 2016</a>
+        <a href="https://bqp.io/economics-of-mandatory-backdoors.html" rel="bookmark"
+            title="Permalink to Mandatory Backdoors are a Tax on Encryption">Mandatory Backdoors are a Tax on Encryption</a>
     </h1>
 
     </div>
@@ -27,68 +27,63 @@
 
         <div class="content">
     <div class="article-text">
-        <p>Last week I attended the <a href="https://ucalgary.ca/qip2016/">QIP 2016 conference</a> on
-quantum information processing. It started out as two days of turorial sessions
-at the University of Calgary and then moved to the main venue in the beautiful
-Banff, Alberta:</p>
-<p><img alt="QIP 2016 Venue in Banff" src="https://bqp.io/images/qip2016.jpg" /></p>
-<p>Even though my background is in information security and cryptography, it's one
-of my life goals to understand how nature works. So I've applied to grad school
-to study quantum computing. It's the perfect intersection of physics and
-computer science, so my existing computer science background will remain useful.
-I'm not abandoning infosec – there's lots of infosec-like parts to quantum
-information, like quantum cryptography and post-quantum cryptography – and my
-hope is to bring some of the quantum formalisms back over to classical infosec
-and make the computers we use right now more secure.</p>
-<p>Being a newcomer to quantum information, I knew I wouldn't understand, nor care
-about, most of the results being presented there. I went to get a glimpse at the
-frontier of quantum information research, mainly to see if I would like it
-there. Moreover, I went there to see what got the researchers excited.
-Excitation is contagious, and I wanted to pick some of it up.</p>
-<p>I was right that I wouldn't understand most of it. While everyone in the room
-was scrutinizing the presenters' sketch proofs, I was busy trying to reverse
-engineer the formal definitions of things like "conditional mutual information"
-and "semidefinite programming." I kept a list of the unknown terms I heard most
-frequently, and now I have a solid list of things to study before I go to grad
-school.</p>
-<p>Another thing I picked up was a new appreciation for topics I used to think were
-boring and artificial. Error correcting codes are one example. I used to think
-they were an artificial solution to an artificial problem. We can't build
-reliable communications channels, so we have to apply some extra engineering
-effort to reliably send information through them. Nothing fundamental; all
-boring. At QIP, I saw that error correction is actually much more fundamental
-than I'd ever thought. It's really about the <em>ways in which information can be
-stored</em> in a medium, how information can be spread out so that it is not all in
-one place. This becomes immediately clear in the quantum realm, where your
-information is not just bits but entangled qubits and the no-cloning theorem
-means you can't just deal with errors by storing lots of copies of the same
-information.</p>
-<p>All information is encoded with some sort of error correcting code, we usually
-just never notice it because the codes are so familiar. The bit that the coin
-resting on your desk represents with its heads-or-tails state is
-error-correcting encoded: the intricate patterns on the two surfaces make it
-easy for you to distinguish the two sides and the energy required to flip the
-coin over makes it easy for you to determine which side is facing up, even when
-the coin is damaged or there's an earthquake shaking your desk. Once you start
-looking for them, you'll see codes are everywhere. What I thought was an
-artificial and boring subject turns out to be fundamentally necessary for our
-world to work.</p>
-<p>My favorite thing about QIP was that all of the papers are open-access. Every
-paper presented is up on the <a href="http://arxiv.org/">arXiv</a>, and most of the talks
-cited the work they were based on by their arXiv identifier code. Way to go,
-quantum information community, for doing an excellent job of making it easy for
-a newcomer to get started in your field.</p>
-<p>With some luck, I'll be back for QIP in 2017.</p>
+        <p>There are plenty of good arguments against mandatory crypto backdoors. All of
+the ones I've seen invoke at least one of the following assumptions:</p>
+<ol>
+<li>We can't trust the government that's holding the keys.</li>
+<li>The government holding the keys can't keep their computer systems secure.</li>
+<li>The government doesn't really need crypto backdoors.</li>
+<li>The "bad guys" can write their own un-backdoored encryption tools and use those.</li>
+<li>It's technically infeasible to backdoor a cryptosystem in a secure way.</li>
+</ol>
+<p>Let's build an even stronger argument against mandated backdoors. We'll be
+<em>insanely</em> generous to the government and negate all of those assumptions.
+Assume the following:</p>
+<ol>
+<li>The government is 100% trustworthy.</li>
+<li>The government is capable of securing computer systems and protecting keys.</li>
+<li>The government really needs crypto backdoors.</li>
+<li>The "bad guys" will use U.S.-based commercial cryptography products.</li>
+<li>It's possible to backdoor a cryptosystem in a way that's secure, but it's
+   more difficult and expensive than if the system weren't backdoored.</li>
+</ol>
+<p>Here's an argument against crypto backdoors that works even under these highly
+optimistic assumptions: <em>Mandated crypto backdoors are like a tax on the use of
+cryptography, which incentivizes companies to produce less-secure products.</em></p>
+<p>If we decide to obligate crypto backdoors then any company who uses cryptography
+in their products must be prepared to add the backdoor feature to their product.
+By assumption (5), doing so will incur an additional cost. The company must
+divert engineering resources away from other things – things that will likely
+bring the company more profit – towards adding the backdoor, which will bring
+the company no additional profit, since from the user's perspective it is the
+same. The company is therefore paying a tax, in the form of opportunity cost, to
+use encryption in their product.</p>
+<p>In response to this tax, companies can either compromise on security by deciding
+not to use encryption at all or by spending less engineering and quality
+assurance effort on the parts of their product that involve cryptography (making
+vulnerabilities more likely), or by choosing not to compromise on security,
+carefully implementing the backdoor, and accepting the loss in profit.</p>
+<p>It's clear from the economic incentives that software written by companies
+mandated to add backdoors will tend to be less secure.</p>
+<p>The true cost of mandatory backdoors is now in plain view. In order to
+circumvent my argument, the government (and by extension, the people) must be
+willing to reimburse software companies for the added cost to design, implement,
+review, and test the backdoor. This could amount to billions of dollars if the
+government wants backdoors in everything. That's money that could be spent on
+healthcare, disease research, and other things that <em>actually save lives</em>. Even
+if the government can convince us of assumptions (1), (2), (3), (4), and (5),
+they <em>still have to convince us that they can save more lives using the access
+those backdoors provide than we could save by spending that money elsewhere.</em></p>
     </div>
 
     <div class="article-metadata">
-        Saturday, January 16, 2016.
+        Tuesday, March 29, 2016.
         <!-- XXX: article might have zero authors! -->
         By
             <a href="https://bqp.io/author/taylor-hornby.html">Taylor Hornby</a>
         <!-- XXX: article might have no category?! -->
         In
-        <a href="https://bqp.io/category/quantum.html">Quantum</a>.
+        <a href="https://bqp.io/category/security-and-cryptography.html">Security and Cryptography</a>.
     </div>
     <!--
         XXX: UNIMPLEMENTED TRANSLATIONS
@@ -101,8 +96,8 @@ a newcomer to get started in your field.</p>
             <div id="disqus_thread"></div>
             <script type="text/javascript">
                 var disqus_shortname = 'bqpio';
-                var disqus_identifier = 'qip-2016-conference.html';
-                var disqus_url = 'https://bqp.io/qip-2016-conference.html';
+                var disqus_identifier = 'economics-of-mandatory-backdoors.html';
+                var disqus_url = 'https://bqp.io/economics-of-mandatory-backdoors.html';
                 (function() {
                 var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
                 dsq.src = '//bqpio.disqus.com/embed.js';
