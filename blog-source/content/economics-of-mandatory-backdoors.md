@@ -7,7 +7,7 @@ Status: published
 There are plenty of good arguments against mandatory crypto backdoors. All of
 the ones I've seen invoke at least one of the following assumptions:
 
-1. We can't trust the government that's holding the keys.
+1. We can't trust the government(s) who want to hold the keys.
 2. The government holding the keys can't keep their computer systems secure.
 3. The government doesn't really need crypto backdoors.
 4. The "bad guys" can write their own un-backdoored encryption tools and use those.
