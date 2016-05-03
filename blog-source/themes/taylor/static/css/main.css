@@ -3,6 +3,7 @@
 @import url("pygment.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic");
 
 /* Get rid of the default padding around the edges of the page. */
 html, body {
@@ -11,9 +12,9 @@ html, body {
 }
 
 body {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-family: 'Source Sans Pro', "Helvetica Neue", Helvetica, Arial, sans-serif;
     /* This is the background the inner header-and-content box rests on. */
-    background-image: url('../images/eight_horns.png');
+    background-image: url('../images/worn-graph-paper-background.jpg');
     background-attachment: fixed;
     background-color: #EEEEEE;
 }
@@ -43,7 +44,7 @@ a:visited {
     border-left: solid 1px #CCCCCC;
     border: solid 1px #CCCCCC;
     /* box-shadow: 2px 2px 2px #888888; */
-    margin-bottom: 20px;
+    margin-bottom: 80px;
 }
 
 /* The global header div. In articles, it includes the title and image. */
@@ -63,9 +64,15 @@ a:visited {
 .content {
     width: 700px;
     margin: 0 auto;
-    font-size: 13pt;
-    line-height: 1.4em;
+    font-size: 18px;
+    line-height: 1.6em;
+    color: #333333;
+    text-align: justify;
     padding-bottom: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: black;
 }
 
 .content img {
@@ -79,8 +86,16 @@ a:visited {
     width: 700px;
     margin: 0 auto;
     padding-top: 20px;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
     margin-bottom: 80px;
+
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: white;
+    border-radius: 5px;
+    border-top: solid 1px #CCCCCC;
+    border-left: solid 1px #CCCCCC;
+    border: solid 1px #CCCCCC;
 }
 
 /* Categories section of the footer. */
