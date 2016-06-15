@@ -14,9 +14,11 @@ html, body {
 body {
     font-family: 'Source Sans Pro', "Helvetica Neue", Helvetica, Arial, sans-serif;
     /* This is the background the inner header-and-content box rests on. */
-    background-image: url('../images/worn-graph-paper-background.jpg');
-    background-attachment: fixed;
-    background-color: #EEEEEE;
+    background-image: url('../images/pluto.jpg');
+    /*background-attachment: fixed; */
+    background-position: center top; 
+    background-repeat: no-repeat;
+    background-color: #000000;
 }
 
 a {
@@ -39,11 +41,13 @@ a:visited {
     padding-left: 80px;
     padding-right: 80px;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 10px;
+    /*
     border-top: solid 1px #CCCCCC;
     border-left: solid 1px #CCCCCC;
     border: solid 1px #CCCCCC;
-    /* box-shadow: 2px 2px 2px #888888; */
+    */
+    box-shadow: 2px 2px 2px #000000;
     margin-bottom: 40px;
 }
 
