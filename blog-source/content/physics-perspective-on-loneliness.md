@@ -21,8 +21,8 @@ something to do with other people and our interactions with them. I think
 there's value in knowing exactly what we're talking about, so let's try to put
 that intuition on firmer logical ground.
 
-Be warned: I've leaped off the diving board of science and I'm falling quickly
-into the abyss of philosophy and speculation.
+Be warned: I'm leaping off the diving board of science into the abyss of
+philosophy and speculation.
 
 ### Loneliness isn't lack of material wealth
 
@@ -33,27 +33,28 @@ maintenance. You don't have to worry about the power going out or the water
 shutting off or even running out of food. You can easily live out the rest of
 your life.
 
-In this scenario, you have access to all the material wealth of the world. You
-can simply steal the most luxurious car you can find, drive to the airport, and
-start learning how to fly planes. After you get good enough, you can walk on to
-a military base and fly an F-22. You can take over any billionaire's oceanside
-estate and come home to a place of luxury after each day's exploratory outing.
+In this scenario, you have access to all the material wealth of the world.
+There's no one to stop you from stealing the most luxurious car you can find,
+driving it to the aiport, stealing a plane, and learning how to fly. Once you
+get good enough, you can walk into a military base and steal an F-22. How fun!
+After you're done flying, you can come home to the billion-dollar Mansion your
+favorite celebrity used to live in.
 
 This would be a life of happiness and adventure, depending on who you are and
 what you decide to do. But what would happen to your feelings of loneliness?
 Would they go away? You might be a lot happier with all of your new material
-wealth, but I think you will agree with me that your loneliness would not go
-away. At best, you would be too busy having fun in your world-sized sandbox to
-think about it.
+wealth, but I think most would intuit that your loneliness would not go away. At
+best, you would be too busy having fun in your world-sized sandbox to think
+about it.
 
 Conversely, if someone is well loved, has lots of great friends, and feels no
 loneliness at all has all of their material possessions taken away, you would
-not expect them to feel lonely. They will feel sadness and anger, but they will
-not be loneliness, as all of their relationships are intact.
+not expect them to feel lonely. They will most certainly feel sadness and anger,
+but they will not be lonely; all of their relationships are still intact.
 
-If you agree with this argument, then we've established that loneliness is
-separate from material wealth. I'm sure you already knew that; this is the easy
-one. The next conclusion we'll reach about loneliness is more subtle.
+So, we've established that loneliness is separate from material wealth. I'm sure
+you already knew that; this is the easy one. The next conclusion we'll reach
+about loneliness is more subtle.
 
 ### Loneliness isn't lack of interaction with others
 
