@@ -12,11 +12,12 @@ project](https://z.cash/blog/taylors-next-adventure.html) and having less
 opportunities to hang out with the Zcash team.
 
 In my applications to scholarships, I mentioned how science communicators like
-Carl Sagan, Richard Feynman, and Neil deGrasse Tyson inspire me, and how I want
-to be like them, and how I'll work hard to popularize my work. Creating new
-scentists is just as valuable as doing novel research. So, with those promises
-in mind, I'll be blogging about all the cool stuff I learn right here!
+Carl Sagan, Richard Feynman, and Neil deGrasse Tyson inspire me, how I want to
+be like them, and how I'll work hard to popularize my work. I believe creating
+new scientists is just as valuable as doing novel research. So, with those
+promises in mind, I'll be blogging about some of the cool stuff I learn right
+here!
 
-I'm on the road to Waterloo right now (thanks to my Dad for driving me and all
-my computer crap across the country), so hopefully the first post will be up in
-a week or two!
+I'm on the road from Calgary to Waterloo right now (thanks to my Dad for driving
+me and all my computer crap across the country), so hopefully the first post
+will be up in a week or two!
