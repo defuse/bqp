@@ -8,7 +8,7 @@ Cybercrime is illegal. When a cybercriminal gets caught hacking into Google's
 servers or distributing ransomware, they'll go to jail. To decide whether or not
 to carry out an attack, a cybercriminal considers three big-picture items:
 
-1. The value they expect gain for themselves by attempting the attack.
+1. The value they expect to gain for themselves by attempting the attack.
 2. The probability of getting caught.
 3. The punishment they expect to receive if they do get caught.
 
@@ -73,7 +73,7 @@ to reveal a robust digital economy that's secured by code and mathematics,
 having no need for law.
 
 Worse than the chaos legalization would create, what's legal for
-now-cybercriminals would become legal for law enforcement and other employees
+now-cybercriminals would become legal for law enforcement and other employees of
 the government. I argued that we should brave cybercriminal attacks instead of
 giving our governments a wider window into to the more-personal parts of our
 online lives. If we made cybercrime legal without adding protections against
