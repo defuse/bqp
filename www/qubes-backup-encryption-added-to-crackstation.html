@@ -48,8 +48,8 @@ the contents of the <code>backup-header</code> file using the password as the HM
 default, the contents of <code>backup-header</code> is
 <code>version=3\nhmac-algorithm=SHA512\ncrypto-algorithm=aes-256-cbc\nencrypted=True\ncompressed=False\n</code>.
 There's no salt involved in the computation of this HMAC, so if the user has
-left the Qubes backup settings as their defaults, the hash in this file will
-have been computed in exactly the same way as the hashes in CrackStation's hash
+left the Qubes backup settings as their defaults, the HMAC of this file will
+have been computed in exactly the same way as the HMACs in CrackStation's hash
 database. That's why a simple binary search lookup of the hash in the database
 can quickly reverse the hash into its corresponding password.</p>
     </div>
