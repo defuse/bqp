@@ -2,7 +2,6 @@ Title: Will we ever solve the hard problem of information security?
 Date: 2017-01-12
 Slug: will-we-ever-solve-the-hard-problem-of-information-security
 Category: Security and Cryptography
-Image: images/hacker.jpg
 Status: draft
 
 The sad reality of today is that all of the programs we rely on are vulnerable
@@ -116,15 +115,14 @@ a particular approach to solving the problem. The developers choose which
 language to write the program in, draw up a design for the internals of the
 program, and select which algorithms to use to solve the sub-problems.
 
-- Diagram: Square of all programs, circle which is dartboard. that the approach
-  they've chosen to take defines the dartboard:
+![Dartboard]({filename}/images/dartboard/dartboard-1.png)
 
 Of course, there is a cork backboard (full of nonsensical programs) to catch
 errant darts, but the developers nearly always at hit the board! The bull's eye
 of the dartboard contains the programs that are really correct and secure
 according to *F* and *S*:
 
-- Add a green circle to the middle.
+![Dartboard]({filename}/images/dartboard/dartboard-2.png)
 
 Let's partition the region around the bull's eye into into three areas: (1)
 programs that implement the correct functionality but aren't secure (bugs that
@@ -133,21 +131,21 @@ implement the wrong functionality (benign bugs), and (3) programs that are
 neither secure nor implement the correct functionality, probably the most common
 kind:
 
-- Add the above three regions.
+![Dartboard]({filename}/images/dartboard/dartboard-3.png)
 
 Containing the bull's eye is the "circle of acceptance", which are all the
 programs that will pass QA's test and be deemed ready for production use. Of
 course, QA isn't perfect, so some incorrect and insecure programs slip in:
 
-- Draw the circle of acceptance.
+![Dartboard]({filename}/images/dartboard/dartboard-4.png)
 
 The act of software development consists of throwing a dart at the board, of
 course aiming for the bull's eye. We're not bad dart players, so programs near
 the bull's eye (almost-secure and almost-correct programs) are more likely than
 ones far away from it. The probability distribution over where the dart lands
-probably looks something like this:
+might look something like this:
 
-- Sideways view of the dartboard with a Bell curve.
+![fat probability distribution]({filename}/images/dartboard/distribution-1.png)
 
 Today, most of our darts miss the bull's eye. How can we improve?
 
@@ -172,10 +170,7 @@ approach is to use the PHP language and `mysql_real_escape_string()` to escape
 data for insertion into an SQL query, and another approach is to use prepared
 statements in the Rust language. The latter's bull's eye will be easier to hit.
 
-- Diagram with multiple dartboards, stretching off to infinity.
-
-- TODO: say something about adoption above (getting programmers to actually
-  adopt techniques, even though they're accustomed to what they're used to.
+![Dartboard]({filename}/images/dartboard/dartboard-5.png)
 
 The problem with making the bull's eye bigger is that every developer is
 inherently more comfortable working in some design spaces rather than others.
@@ -187,11 +182,8 @@ eye bigger helps with that, because it's sandwiched between the bull's eye and
 the edge of the dartboard. We tighten the circle of acceptance itself by
 becoming more skeptical and deeming fewer programs as production-ready. For
 example, we might accept only formally verified programs, exiling all error to
-mistakes translating the intuitive *F* and *S* into formal statements.
-
-- Diagram of circle constricting.
-
-Again, how we constrict the circle of acceptance needs to be in line with
+mistakes translating the intuitive *F* and *S* into formal statements. But
+again, how we constrict the circle of acceptance needs to be in line with
 economic reality.
 
 We can try to be better dart throwers too. Maybe, through better education and
@@ -204,7 +196,7 @@ vulnerabilities. So this approach boils down to recognizing that the bull's eye
 we're going for is small and that we have to invest massive amounts of time and
 money into making sure we hit it.
 
-- Diagram of old probability distribution vs. taller one (side view)
+![skinny probability distribution]({filename}/images/dartboard/distribution-2.png)
 
 The last way we can get better is a bit of a cheat: change the problem. We can
 talk to the users and convince them that their *F* and *S* are too hard, and if
