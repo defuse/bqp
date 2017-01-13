@@ -182,13 +182,12 @@ inherently more comfortable working in some design spaces rather than others.
 PHP experts can't become Rust experts overnight. So how we make the bull's eye
 bigger has to be in line with our economic reality.
 
-Another thing we want is for the circle of acceptance to hug the bull's eye
-tight. Making the bull's eye bigger helps with that, because it's sandwiched
-between the bull's eye and the edge of the dartboard. We can also tighten the
-circle of acceptance by becoming more skeptical and deeming fewer programs as
-production-ready. For example, we might accept only formally verified programs,
-exiling all error to mistakes translating the intuitive *F* and *S* into formal
-statements.
+We want the circle of acceptance to hug the bull's eye tight. Making the bull's
+eye bigger helps with that, because it's sandwiched between the bull's eye and
+the edge of the dartboard. We tighten the circle of acceptance itself by
+becoming more skeptical and deeming fewer programs as production-ready. For
+example, we might accept only formally verified programs, exiling all error to
+mistakes translating the intuitive *F* and *S* into formal statements.
 
 - Diagram of circle constricting.
 
@@ -203,7 +202,7 @@ science to have any hope of teaching someone how to program in C++ without also
 making them ultra likely to write programs with memory corruption
 vulnerabilities. So this approach boils down to recognizing that the bull's eye
 we're going for is small and that we have to invest massive amounts of time and
-money into making sure we've hit it.
+money into making sure we hit it.
 
 - Diagram of old probability distribution vs. taller one (side view)
 
