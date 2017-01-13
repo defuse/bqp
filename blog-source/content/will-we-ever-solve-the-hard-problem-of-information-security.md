@@ -27,6 +27,8 @@ optimistic?
 Two visions of the future
 -------------------------
 
+![Two visions of the future]({filename}/images/dartboard/visions.jpg)
+
 I have two extreme visions of the future, and I imagine a spectrum of possible
 futures that lie in between between. The first vision is that our dream comes
 true: we discover some algorithm or prove some theorem that makes security easy.
