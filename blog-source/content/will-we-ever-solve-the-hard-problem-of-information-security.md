@@ -274,9 +274,11 @@ take a shot at proving it. Who knows, it might even be true!
 We should move forward with optimism, hoping that one day things will get
 better. But we should not have *blind optimistic faith*. For all the effort we
 put into making things better, we should be putting at least half as much into
-showing that we fundamentally can't. This is the only way to understand the
-problems we're facing, and it's the only way we'll ever stop creating
-"solutions" that eventually get discarded as failures.
+showing that we fundamentally can't. We need to go beyond breaking individual
+defense mechanisms and show that *all* defenses of certain kinds will fail. By
+doing this, we'll get a much better appreciation for the hard problems we're up
+against, and it's the only way we'll ever stop putting forward "solutions" that
+end up failing.
 
 *I'm curious, what do you think?* Are you holding out hope for big
 breakthroughs? Or do you think that the status quo is pretty much it, modulo
