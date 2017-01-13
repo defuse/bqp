@@ -2,6 +2,7 @@ Title: Will we ever solve the hard problem of information security?
 Date: 2017-01-12
 Slug: will-we-ever-solve-the-hard-problem-of-information-security
 Category: Security and Cryptography
+Image: images/doors.jpg
 Status: draft
 
 The sad reality of today is that all of the programs we rely on are vulnerable
