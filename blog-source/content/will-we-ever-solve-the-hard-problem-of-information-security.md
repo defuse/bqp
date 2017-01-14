@@ -1,9 +1,9 @@
 Title: Will we ever solve the hard problem of information security?
-Date: 2017-01-12
+Date: 2017-01-13
 Slug: will-we-ever-solve-the-hard-problem-of-information-security
 Category: Security and Cryptography
 Image: images/doors.jpg
-Status: draft
+Status: published
 
 The sad reality of today is that all the programs we rely on are vulnerable to
 some sort of attack. A good chunk of computer science academia is trying its
@@ -48,21 +48,20 @@ programs secure (antivirus, ASLR, return-oriented programming defenses, etc.)
 seem to presuppose that we live in the first kind of world. If we just keep
 trying, we'll eventually find a way. But maybe these attempts are futile. Maybe
 we fundamentally *can't* solve our problems, and by necessity, the arms race
-between attacker and defender will turn out to be perpetual. Despite our hopes,
-our collective experience seems to suggest we're more likely to be living in the
-second kind of world.
+between attacker and defender will turn out to be perpetual.
 
-Maybe we can *prove* that we live in the second kind of world. Such a proof
-would be extremely valuable, because we could use it rule out approaches to
-securing ourselves that are fundamentally unsound. What would the proof look
-like?
+Despite our hopes, our collective experience seems to suggest we're more likely
+to be living in the second kind of world. Maybe we can *prove* that we live in
+the second kind of world. Such a proof would be extremely valuable, because we
+could use it rule out approaches to securing ourselves that are fundamentally
+unsound. What would the proof look like?
 
 The obvious place to start is with computability theory. It's undecidable
 whether an arbitrary computer program is correct. It's undecidable whether an
 arbitrary computer program contains a vulnerability, even for very narrow
 definitions of vulnerability. So, following this reasoning, should we conclude
 that we're in the second kind of world and just give up? No! Just look at how
-much value we get from using computer programs even though we aren't *certain*
+much value we get from using computer programs even though we're not *certain*
 they're correct. The fact that Excel has bugs in some of its macro functions
 doesn't mean companies can't make effective use of it to calculate their
 employees' payroll. To get around the undecidability barrier, we need to look at
@@ -92,8 +91,8 @@ We can "pseudomathematically" model the situation like this:
 
 2. There's a randomized algorithm *D*, corresponding to the software developers,
    that takes the desired functionality *F* and the security requirements *S* as
-   input and spits out a program *D(F, S)* that supposedly satisfies the
-   functionality and security requirements.
+   input and spits out a program *D(F, S)* that supposedly satisfies both
+   requirements.
 
 3. There's another randomized algorithm *Q*, corresponding to the quality
    assurance testers, which takes *F*, *S*, and a program as input, and decides
@@ -117,8 +116,8 @@ English language (or whichever language you speak), ends up being good enough.
 
 Let's think of the developers as darts players, and let's lay out the space of
 all possible programs on a dartboard. Upon seeing *F*, the developers will
-choose a particular approach to solving the problem. They decide which language
-to write the program in, draw up a design for the internals of the program, and
+choose a particular approach to solving the problem. They will pick a language
+to write the program in, draw up a design for the internals of the program,
 select the algorithms they're going to use, and so on. The chosen design space
 will be our dartboard. Behind the dartboard there's a backboard (full of
 nonsensical programs) to protect the wall from errant darts, but the developers'
@@ -157,10 +156,10 @@ look something like this:
 
 ![fat probability distribution]({filename}/images/dartboard/distribution-1.png)
 
-Today, most of our darts miss the bull's eye. Continuing the darts analogy, what
-can we do to make more of our darts land in the bull's eye?
+Today, most of our darts miss the bull's eye. What can we do to make more of our
+darts land in the bull's eye?
 
-How can we improve?
+How do we improve?
 -------------------
 
 The first step is to make sure that there really *is* a bull's eye. Humans are
@@ -178,9 +177,9 @@ encompasses, the more likely the dart throwers are to hit it on their first try.
 If we zoom out and look at the entire backboard, we'll find other dartboards
 corresponding to different design decisions. For example, one approach is to use
 the PHP language and `mysql_real_escape_string()` to escape data for insertion
-into an SQL query, and another approach is to use prepared statements in the
-Rust language. The latter's bull's eye will be easier to hit. There are many
-design spaces with different sized bull's eyes:
+into SQL queries, and another approach is to use prepared statements in the Rust
+language. The latter's bull's eye will be easier to hit. There are lots of
+different design spaces and each one has a different sized bull's eye:
 
 ![Dartboard]({filename}/images/dartboard/dartboard-5.png)
 
@@ -217,17 +216,17 @@ talk to the users and convince them that their *F* and *S* are too hard, and if
 they could only be happy with the different *F'* and *S'* then we could actually
 give them what they want. Alas, this won't be possible in general. We use
 computers because of the value they provide, and we can't just rearrange the way
-our whole society works so that the problems we need computers to solve are
-easier.
+our whole society works so that the problems we to solve are easy to program.
 
 Now that we have a nice picture in our minds, let's return to the question of
-whether or not we should expect some kind of holy grail security breakthrough.
+whether or not we should expect to see some kind of holy grail security
+breakthrough in the future.
 
 So, which world do we live in?
 ------------------------------
 
-The darts analogy helps us see the questions we need to answer. Ultimately, we
-want to know whether there is a dartboard (a design space) with a bull's eye big
+The darts analogy tells us what questions we need to answer. Ultimately, we want
+to know whether there is a dartboard (a design space) with a bull's eye big
 enough for us to hit every time. The three questions we need answers to are:
 
 1. **The human developer probability distribution question:** What is the
@@ -236,13 +235,14 @@ enough for us to hit every time. The three questions we need answers to are:
    a team of human programmers?
 
 2. **The technologically-expanding bull's eye question:** How large, relative to
-   the set of all programs within the chosen design space, can we make the set
-   of functional and secure programs, by way of changing our choice of design
-   space (in an economically feasible way)?
+   the design space, can we make the set of functional and secure programs, by
+   way of changing our choice of design space? Remember that the design spaces
+   we choose need to be economically feasible.
 
 3. **The technologically-constricting circle of acceptance question:** How
    tightly can we make the circle of acceptance hug the bull's eye, by way of
-   improving our quality assurance technology?
+   improving our quality assurance technology? Remember that our QA technology
+   needs to be economically feasible, too.
 
 It's easy to find research towards answering the latter two questions, and it's
 harder to find research towards answering the first. That's not really
@@ -258,7 +258,8 @@ favorable answers, but perhaps we've been too optimistic. My personal opinion is
 that we need to try harder to supply unfavorable answers. Without an
 understanding of our limitations, it might be like we're all running on
 treadmills without realizing it. We think we're making progress towards
-a breakthrough without realizing we're going nowhere.
+a breakthrough without realizing we're going nowhere. I want us to look for
+unfavorable answers to the three questions.
 
 As an example, and to clarify what I'm advocating for, the research I'm
 imagining would try to prove something like a "typo theorem." A typo theorem
@@ -278,8 +279,8 @@ showing that we fundamentally can't. We need to go beyond breaking individual
 defense mechanisms and show that *all* defenses of certain kinds will fail. By
 doing this, we'll get a much better appreciation for the hard problems we're up
 against, and it's the only way we'll ever stop putting forward "solutions" that
-end up failing.
+don't really help.
 
 *I'm curious, what do you think?* Are you holding out hope for big
 breakthroughs? Or do you think that the status quo is pretty much it, modulo
-minor improvements? Leave a comment below.
+minor improvements? You can leave a comment below.
