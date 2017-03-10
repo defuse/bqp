@@ -43,7 +43,7 @@ us even optimistically think we'll find technical solutions to those problems,
 too. But are the breakthroughs we hope for possible, or are we stuck with the
 status quo forever?</p>
 <h2>Two visions of the future</h2>
-<p><img alt="Two visions of the future" src="https://bqp.io/images/dartboard/visions.jpg" /></p>
+<p><img alt="Two visions of the future" src="https://bqp.io/images/dartboard/visions.jpg"></p>
 <p>I have two extreme visions of the future, and there's a spectrum of possible
 futures that lie in between the two. The first vision is that our dream comes
 true: we discover some algorithm or prove some theorem that makes security easy.
@@ -138,10 +138,10 @@ select the algorithms they're going to use, and so on. The chosen design space
 will be our dartboard. Behind the dartboard there's a backboard (full of
 nonsensical programs) to protect the wall from errant darts, but the developers'
 darts almost always land inside the circle:</p>
-<p><img alt="Dartboard" src="https://bqp.io/images/dartboard/dartboard-1.png" /></p>
+<p><img alt="Dartboard" src="https://bqp.io/images/dartboard/dartboard-1.png"></p>
 <p>The bull's eye of the dartboard contains the programs that are really
 correct and secure according to <em>F</em> and <em>S</em>:</p>
-<p><img alt="Dartboard" src="https://bqp.io/images/dartboard/dartboard-2.png" /></p>
+<p><img alt="Dartboard" src="https://bqp.io/images/dartboard/dartboard-2.png"></p>
 <p>The region around the bull's eye is partitioned into into three areas:</p>
 <ol>
 <li>
@@ -156,17 +156,17 @@ correct and secure according to <em>F</em> and <em>S</em>:</p>
 <p>Programs that are neither secure nor implement the correct functionality.</p>
 </li>
 </ol>
-<p><img alt="Dartboard" src="https://bqp.io/images/dartboard/dartboard-3.png" /></p>
+<p><img alt="Dartboard" src="https://bqp.io/images/dartboard/dartboard-3.png"></p>
 <p>Containing the bull's eye is the "circle of acceptance", which are all the
 programs that will pass QA's test and be deemed ready for production use. Of
 course, QA isn't perfect, so some incorrect and insecure programs slip in:</p>
-<p><img alt="Dartboard" src="https://bqp.io/images/dartboard/dartboard-4.png" /></p>
+<p><img alt="Dartboard" src="https://bqp.io/images/dartboard/dartboard-4.png"></p>
 <p>The act of software development consists of throwing a dart at the board, trying
 to hit the bull's eye. We're not <em>terrible</em> darts players, so programs near the
 bull's eye (almost-secure and almost-correct programs) are more likely than ones
 far away from it. The probability distribution over where the dart lands might
 look something like this:</p>
-<p><img alt="fat probability distribution" src="https://bqp.io/images/dartboard/distribution-1.png" /></p>
+<p><img alt="fat probability distribution" src="https://bqp.io/images/dartboard/distribution-1.png"></p>
 <p>Today, most of our darts miss the bull's eye. What can we do to make more of our
 darts land in the bull's eye?</p>
 <h2>How do we improve?</h2>
@@ -187,7 +187,7 @@ the PHP language and <code>mysql_real_escape_string()</code> to escape data for 
 into SQL queries, and another approach is to use prepared statements in the Rust
 language. The latter's bull's eye will be easier to hit. There are lots of
 different design spaces and each one has a different sized bull's eye:</p>
-<p><img alt="Dartboard" src="https://bqp.io/images/dartboard/dartboard-5.png" /></p>
+<p><img alt="Dartboard" src="https://bqp.io/images/dartboard/dartboard-5.png"></p>
 <p>The problem with making the bull's eye bigger is that every developer has
 a comfort zone. They're better at working in some design spaces over others. It
 costs money to transform a PHP expert into a Rust expert, and it can't happen
@@ -211,7 +211,7 @@ ultra-likely to write programs with memory corruption vulnerabilities. Becoming
 better dart throwers boils down to recognizing when the bull's eye we're going
 for is small and investing massive amounts of time and money into making sure it
 gets hit:</p>
-<p><img alt="skinny probability distribution" src="https://bqp.io/images/dartboard/distribution-2.png" /></p>
+<p><img alt="skinny probability distribution" src="https://bqp.io/images/dartboard/distribution-2.png"></p>
 <p>The last way we can get better is a bit of a cheat: change the problem. We can
 talk to the users and convince them that their <em>F</em> and <em>S</em> are too hard, and if
 they could only be happy with the different <em>F'</em> and <em>S'</em> then we could actually
