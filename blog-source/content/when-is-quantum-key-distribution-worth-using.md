@@ -218,7 +218,7 @@ to consider:
 3. Will you have conventional cryptography running underneath the QKD so that
    you'll fall back on that if the QKD gets breached?
 4. Has the code/hardware postprocessing logic for your vendor's device been
-   audited by a competent third-party auditing service?
+   audited by a competent third-party security consultancy?
 5. Has the QKD hardware been audited by a competent third-party team of [quantum
    hackers](http://www.vad1.com/lab/)?
 6. How quickly will you be able to replace the QKD devices if a physical
