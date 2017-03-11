@@ -3,6 +3,7 @@ Date: 2017-03-09
 Slug: when-is-quantum-key-distribution-worth-using
 Category: Security and Cryptography
 Status: draft
+Image: images/fibre.jpg
 
 Even though general-purpose quantum computers seem pretty far off, there are
 already some companies selling quantum key distribution (QKD) products today.
