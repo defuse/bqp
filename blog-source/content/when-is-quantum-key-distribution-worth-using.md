@@ -53,14 +53,14 @@ Conventional Cryptography
 ---------------------------
 
 In the private setup scenario, the best Alice and Bob can do with conventional
-cryptography is to exchange some secret key in private setup and then build the
-secure channel out of a cipher like AES and some hash function like BLAKE2. If
-the adversary compromises Alice or Bob and steals the secret key, they'll be
-able to decrypt all future messages. If Alice and Bob design their protocol
-properly, they can make it  so that an adversary who compromises them can't
-decrypt past messages (e.g. by hashing their session key to make the next one
-and destroying the old one). And, obviously, Alice and Bob need to implement the
-crypto correctly, or there will be problems.
+cryptography is to exchange some secret key in private and then build the secure
+channel out of a cipher like AES and some hash function like BLAKE2. If the
+adversary compromises Alice or Bob and steals the secret key, they'll be able to
+decrypt all future messages. If Alice and Bob design their protocol properly,
+they can make it  so that an adversary who compromises them can't decrypt past
+messages (e.g. by hashing their session key to make the next one and destroying
+the old one). And, obviously, Alice and Bob need to implement the crypto
+correctly, or there will be problems.
 
 So, to build a secure channel in the private setup scenario, conventional
 cryptography needs to assume:
