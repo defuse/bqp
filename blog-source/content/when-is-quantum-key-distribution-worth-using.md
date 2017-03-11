@@ -26,9 +26,9 @@ extra money you're spending on QKD could also be spent on more effective
 defenses like security training for employees or something like that.
 
 Even though QKD is always used in combination with conventional cryptography, it
-wouldn't be fair to compare conventional to QKD+conventional. If you're deciding
-how much of your defense resources to allocate to QKD vs. conventional, the fair
-comparison is between QKD and conventional crypto.
+wouldn't be fair to compare conventional cryptography to QKD+conventional. If
+you're deciding how much of your defense resources to allocate to QKD vs.
+conventional, the fair comparison is between QKD and conventional crypto.
 
 What we'll compare are QKD and conventional crypto's ability to set up a private
 and authenticated "secure channel" between two parties, Alice and Bob. There are
