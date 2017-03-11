@@ -209,7 +209,7 @@ we suddenly found a vulnerability in some QKD hardware that's been deployed
 already to millions of users, with no possibility of a software patch.
 
 To conclude, if you're still interested in using QKD then here are some things
-to consider?
+to consider:
 
 1. Could you get a better return on your investment by migrating to post-quantum
    cryptography instead?
