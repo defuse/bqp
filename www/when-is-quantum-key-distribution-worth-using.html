@@ -184,7 +184,7 @@ branches or memory lookups based on sensitive data. The physical attacks on QKD
 systems seem to be a lot more diverse, and I'm skeptical that there's an easy
 way to eliminate them completely. So although QKD elimintates some computational
 hardness assumptions, it seems a lot harder to get the physical implementation
-of the QKD protocol right.</p>
+right.</p>
 <p>There is such a thing as "device-independent" quantum key distribution, which
 remains secure even if the adversary can make limited modifications to the
 device. It would prevent these kinds of vulnerabilities too but I'm not aware of
@@ -194,17 +194,16 @@ any commercial QKD systems using it.</p>
 I don't think AES or SHA3 will ever be broken. On the other hand I wouldn't bet
 that the kinds of public-key encryption that quantum computers can break (RSA,
 elliptic curves, etc.) will stay secure for more than 10 years from now. Our top
-priority should be to cautiously settle on some post-quantum replacements for
-them. Once we have good post-quantum public-key encryption, I think I'll trust
-the computational hardness assumptions more than our ability to make
-vulnerability-free QKD devices.</p>
-<p>When computational hardness assumptions are broken, they come slowly and
-incrementally. Factoring is a great example: we started migrating away from it
-(or to higher key sizes) because attacks got better, and we migrated faster than
-the attacks improved. So hardness assumptions will give warning before they
-fail; it would be more catastrophic if we suddenly found a vulnerability in some
-QKD hardware that's been deployed already to millions of users, with no
-possibility of a software patch.</p>
+priority should be to cautiously settle on post-quantum replacements.</p>
+<p>Once we have good post-quantum public-key encryption, I think I'll trust the
+computational hardness assumptions more than our ability to make
+vulnerability-free QKD devices. When computational hardness assumptions are
+broken, they come slowly and incrementally. Factoring is a great example: we
+started migrating away from it (or to higher key sizes) because attacks got
+better, and we migrated faster than the attacks improved. So hardness
+assumptions will give warning before they fail; it would be more catastrophic if
+we suddenly found a vulnerability in some QKD hardware that's been deployed
+already to millions of users, with no possibility of a software patch.</p>
 <p>To conclude, if you're still interested in using QKD then here are some things
 to consider?</p>
 <ol>
