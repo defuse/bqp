@@ -75,7 +75,7 @@ Breaking public key encryption seems to be a [different kind of computational
 problem](https://windowsontheory.org/2013/10/07/structure-vs-combinatorics-in-computational-complexity/)
 than breaking symmetric encryption. The problems that arise from public key
 encryption are more structured, for example RSA is based on factoring integers
-and so a lot of number theory tricks can be used to speed it up.
+and so a lot of number theory tricks can be used to break it faster.
 
 So, to build a secure channel in the public setup scenario,
 conventional cryptography needs to assume:
