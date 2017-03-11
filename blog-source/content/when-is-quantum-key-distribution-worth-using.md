@@ -167,8 +167,8 @@ of them](http://www.nature.com/nphoton/journal/v4/n10/abs/nphoton.2010.214.html)
 or just insert a backdoor into the system by [damaging some of its parts with
 a laser](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.94.030302).
 What's happening here is that a QKD protocol is proven secure assuming some
-theoretical model of its components and these attacks show is that the
-components can be made to act differently than the models predict, those
+theoretical model of its implementation components and these attacks show that
+the components can be made to act differently than the models predict, those
 differences leading to security vulnerabilities.
 
 Conventional cryptography can have side-channel vulnerabilities, which are
