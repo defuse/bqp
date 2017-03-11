@@ -65,7 +65,7 @@ correctly, or there will be problems.
 So, to build a secure channel in the private setup scenario, conventional
 cryptography needs to assume:
 
-1. The *symmetric* crypto primitives (AES, BLAKE2) are secure.
+1. The *symmetric* crypto primitives (e.g. AES and BLAKE2) are secure.
 2. The adversary is computationally bound, e.g. to a maximum of 2<sup>96</sup> operations.
 3. The implementation doesn't have security weaknesses.
 
@@ -80,8 +80,8 @@ and so a lot of number theory tricks can be used to break it faster.
 So, to build a secure channel in the public setup scenario,
 conventional cryptography needs to assume:
 
-1. The *symmetric* crypto primitives (e.g. AES, BLAKE2) are secure.
-2. The *public key encryption* crypto primitives (RSA, X25519) are secure.
+1. The *symmetric* crypto primitives (e.g. AES and BLAKE2) are secure.
+2. The *public key encryption* crypto primitives (e.g. RSA or X25519) are secure.
 3. The adversary is computationally bound, e.g. to a maximum of 2<sup>96</sup> operations.
 4. The implementation doesn't have security weaknesses.
 
