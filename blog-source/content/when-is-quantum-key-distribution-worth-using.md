@@ -73,8 +73,8 @@ In the public setup scenario, conventional cryptography needs to make all the
 same assumptions, except it needs one extra ingredient: public key encryption.
 Breaking public key encryption seems to be a [different kind of computational
 problem](https://windowsontheory.org/2013/10/07/structure-vs-combinatorics-in-computational-complexity/)
-than breaking symmetric encryption is. The problems that arise from public key
-encryption are more structured, for example RSA is based on factoring integers,
+than breaking symmetric encryption. The problems that arise from public key
+encryption are more structured, for example RSA is based on factoring integers
 and so a lot of number theory tricks can be used to speed it up.
 
 So, to build a secure channel in the public setup scenario,
