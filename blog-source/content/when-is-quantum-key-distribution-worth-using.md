@@ -173,7 +173,8 @@ differences lead to security vulnerabilities.
 
 Conventional cryptography can have side-channel vulnerabilities, which are
 a kind of physical implementation problem. But that's pretty much the extent to
-which conventional crypto is vulnerable to remote physical attacks. If you shine
+which conventional crypto is vulnerable to remote physical attacks (Update: See
+also the [WALNUT Attack](https://spqr.eecs.umich.edu/walnut/)). If you shine
 a super-high-power laser down a conventional fiber-optic line, it's probably not
 going to burn anything that's important to security. At best you'll burn out the
 sensor and cause a denial of service attack. Moreover, there's a clear rule for
