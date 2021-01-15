@@ -93,32 +93,41 @@ emotional impact on the album.
 Great mixing is *essential* to conveying feeling in music. Take any great track
 and boost harsh frequencies in the chords or boost the muddy midrange in a bass.
 No matter how great and hard-hitting the drop was musically, those added
-mistakes will take away from the listener's enjoyment, even if the listener
-doesn't realize it and couldn't even describe what the differences are. Harsh
-frequencies will stop the listener from turning the track up really loud and
-getting into the drop; overly-loud mids or bass might mask the emotion coming
-from other important sounds and might even make the listener worry their music
-is too loud and annoying the neighbours.
+mistakes will take away from the listener's enjoyment. This is true even if the
+listener doesn't realize it and can't even describe what the differences are.
+Harsh frequencies will stop the listener from turning the track up really loud
+and getting into the drop; overly-loud mids or bass might mask the emotion
+coming from other important sounds and might even make the listener worry their
+music is too loud and annoying the neighbours. Other mix issues will cause even
+more problems.
 
 "Mixing" is a terrible name for this skill. It suggests mixing has only to do
 with combining together the different instruments in your track: setting levels
-and basic EQing and compression. It's really much, much, deeper. Whenever you
-hear "mixing", you should really think *"an ability to recognize and name subtle
-sonic differences combined with practical knowledge of how to control those
-differences to affect a feeling and create clarity in the finished track."*
+and basic EQing and compression, a minor thing to do after you've worked out the
+musical content of the track. It's really much, much, deeper. Whenever you hear
+"mixing", you should really think the following:
+
+> *Great mixing comes from an ability to recognize and name subtle sonic
+> differences combined with practical knowledge of how to control those
+> differences to affect a feeling and create clarity in the finished track.*
 
 In this view, "mastering" is just the same skill applied to the master bus.
 I don't consider mastering a separate process at all, you should be paying
 attention "mastering"-type details, like differences in loudness between
-sections, when you're "just mixing". If you need to put something on the master
-bus to acheive a certain sound while you're "just mixing", then do it!
+sections, when you're "just mixing". And if you need to put something on the
+master bus to acheive a certain sound while you're "just mixing", then do it!
 
-As this near-rant I'm on suggests, my biggest change in thinking has been
+As this almost-rant I'm on suggests, my biggest change in thinking has been
 a shift in focus from chasing novel sounds to learning about and controlling the
-subtlties of sound. I now consider mixing to be a primary and pretty much
-all-encompasing skill. Ultimately your goal should be to have masterful control
-over the little details in all that you produce, *not* to find a "trick" that
-will make your music stand out.
+subtlties of sound.
+
+I consider mixing to be a primary and pretty much all-encompasing skill.
+Ultimately, your goal should be to have masterful control over the little
+details in all that you produce, *not* to find a "trick" that will make your
+music stand out. This is hard to do because you need to train some low-level
+neural circuitry to turn what's initially a vague feeling there's something
+wrong into a quick and reliable "oh, there's too much 8kHz" or whatever the case
+may be.
 
 Now, let's get into some technical nitty-gritty to hopefully help with your
 mixes.
@@ -127,7 +136,7 @@ mixes.
 
 ### Read the manuals
 
-Technical knowledge comes third on my piority list because, compared to the
+Technical knowledge comes third on my priority list because, compared to the
 low-level neural rewiring that needs to take place in order to have an ear for
 fine mixing details, learning the technical information about how sound and
 audio effects actually work is super straightforward. It's just "textbook
@@ -143,23 +152,23 @@ you know about this the better, for example you'll understand why you get
 a clicking sound if you suddenly start or stop a low-frequency bass (because in
 order to create an abrupt change in the signal, there needs to be high-frequency
 sine waves in the mix) and you'll have a better sense for what's possible to do
-in principle with any given audio effect.
+*in principle* with any given audio effect.
 
 It's a really good idea to throughly read through the manual for your DAW to
 understand all of its audio effects what they are doing to the audio at a low
 level. It's a whole other thing to actually experiment with the effects and
 understand how they sound, but learning what they actually do is pretty
 straightforward since it's just a matter of reading a manual! The technical
-knowledge will help you experiment.
+knowledge will help you know what to do when you're experimenting.
 
 ### Music theory without memorizing a bunch of crap
 
-I won't say much about music theory but one thing I will mention is that it can
-seem really daunting to have to memorize 12 different keys and scales, not to
-mention all of the incomprehensible terminology associated with music theory.
-None of that is really necessary, even though conforming to music theory is
-pretty important. There are redundancies in music theory that you can exploit to
-write tracks in any key you want without having to memorize anything.
+I'll try not to say much about music theory but one thing I will mention is that
+it can seem really daunting to have to memorize 12 different keys and scales,
+not to mention all of the incomprehensible terminology associated with music
+theory. None of that is really necessary, even though conforming to music theory
+is pretty important. There are redundancies in music theory that you can exploit
+to write tracks in any key you want without having to memorize anything.
 
 Consider the keys on the piano that make up the C major and A minor scale (easy,
 they're the white keys). If you were to shift all of the keys up seven semitones
@@ -173,7 +182,7 @@ can play the F# minor scale on the white keys!
 By doing this, I've managed to avoid memorizing the keys and the only downsides
 are that I can't play on a regular piano in any key, and if someone gives me
 a chord name like GMaj7 it's a pain to convert that into something I understand.
-(If you use understand the circle of fifth's it's actually not so bad to memorize
+(If you use understand the circle of fifths it's actually not so bad to memorize
 the keys, but I don't have time for that!)
 
 From there you should learn about triads and roman numeral notation for chords
@@ -187,7 +196,7 @@ course](https://www.youtube.com/watch?v=5_yOVARO2Oc&list=PL9LXrs9vCXK56qtyK4qcqw
 The only other thing I'll say about music theory is that it really helps to pick
 a chord progression to start your track. Steal a good one if you need to, it'll
 help get some emotion into your track really quickly which will hopefully
-inspire you to with ideas for what to do next. If you're lazy like me, you can
+inspire you with ideas for what to do next. If you're lazy like me, you can
 let the same chord progression repeat throughout your entire track and still end
 up with a pretty good result but obviously you can do much better with
 meaningful harmonic variation.
@@ -196,9 +205,9 @@ At some point I'll put in the effort to memorize all this music theory stuff. :-
 
 ### Workflow and arrangement
 
-I think this is a pretty common question and something I wondered about a lot.
-Just what do producers *do* when they're creating a track? What do they start
-with? When do they do what?
+I think this is a pretty common question topic and something I wondered about
+a lot. Just what do producers *do* when they're creating a track? What do they
+start with? What do they do next, and after that?
 
 It's easy to think this is the most important thing and that what you have to do
 is learn and memorize a workflow for building a track. That's somewhat true but
@@ -212,17 +221,18 @@ a sample that makes you feel some kind of emotion. Then, let the inspiration
 from what you're currently hearing guide you in coming up with ideas for what to
 do next. For example if you have a sad and nostalgic chord progression,
 listening to it might give you an idea for which kind of instrument should play
-them. This process repeats in a loop: *you're aiming to always be inspired by
-what you're hearing to generate new ideas and to keep you motivated to work on
-the track.* In the early stages of a track, you'll likely be inspired to add
-musical content (chords, melodies, drums, etc.) and it will gradually shift to
-mixing-type stuff like making the drums hit harder, tweaking the sound of the
-chords, and so on, but it can happen *in any order, do it in the order that's
-most fun for you*.
+them, and once you have that going you might have an idea for what the drums
+should be like. This process repeats in a loop: *you're aiming to always be
+inspired by what you're hearing to generate new ideas and to keep you motivated
+to work on the track.* In the early stages of a track, you'll likely be inspired
+to add musical content (chords, melodies, drums, etc.) and it will gradually
+shift to mixing-type stuff like making the drums hit harder, tweaking the sound
+of the chords, and so on, but it can happen *in any order, so do it in the order
+that's most the fun for you*.
 
 If the track you're working on stops inspiring you, then either it's time to
 take a break from that track for a while or it's time to recklessly delete some
-of the stuff you've spent hours on to make space for fresh ideas.
+of the precious stuff you've spent *hours* on to make space for fresh ideas.
 
 To help with this process, though, it is useful to understand the general
 structure of the kinds of tracks you want to make. A good way to do that is to
@@ -238,13 +248,21 @@ to make to have a complete track.
 
 Once you have a sense for what all goes into a a track in terms of the different
 sections and their relationship, make a *lot* of tracks that are "finished" in
-the sense that they have all of the necessary parts. This is something I'm
-pretty glad I did, because you'll need to have those same kinds of sections in
-every track you make and it really helps to have practice at making each kind of
-section. (I actually wish I heeded this advice even more closely, because if you
-listen to my build-up sections they're terrible compared to my drops and
-verses, because I always half-assed the builds and so I don't have as much
-experience making good ones.)
+the sense that they have all of the necessary parts. By doing this you're
+building up your experience and tastes for each different kind of section. What
+you want to avoid is getting really good at one kind of section (like the drop)
+without advancing your skill at all the other kinds of sections, because
+ultimately the *entire* track needs to be good, not just the drop.
+
+If you want to see how this can go wrong, listen to any of my build-up sections,
+they're all pretty bad even in otherwise-good tracks, because I've always
+half-assed them and as a result I never figured out how to make a good one.
+Listen to [Zeds Dead & Diplo
+- Blame](https://www.youtube.com/watch?v=BwhdHAbuiz4) for an example of why
+making the entire track good is so important, the drop is great but the verses
+are what really make the song so incredible.
+
+I will give one specific arrangement tip that I use in pretty much every track.
 
 - ABCD method to writing drops and verses
 
@@ -272,6 +290,8 @@ sound that their brain
 - dynamic EQ for cutting harshness w/o changing tonality
 
 - dont use solo button
+
+- don't listen for too long (take breaks)
 
 ### Compression
 
@@ -320,15 +340,16 @@ You can recreate that same "sound" with a normal compressor. Set a high ratio
 and a super fast attack and super fast release, and a threshold below the
 average level of the signal. It should sound pretty awful and distorted. Now,
 back off the release (make it longer), and you should notice it starts to sound
-less awful and more like the special OTT "sound" (without boosting the highs as
-much).
+less awful and more like the special OTT "sound" except without boosting the
+highs as much.
 
 What's happening is that with an extremely fast attack and release, the
-compressor is essentially applying a distortion curve to the signal. If the
-attack and release were literally 1 sample long, it would be equivalent to
-a waveshaping distortion curve. As the release gets longer, the effect moves
-away from pure distortion into a region that's more like a mixture of distortion
-and compression.
+compressor is essentially applying a distortion curve to the signal. For a very
+fast attack and release, the compressor is reacting and adjusting its gain at
+audible frequencies. If the attack and release were literally 1 sample long, it
+would be equivalent to a waveshaping distortion curve. As the release gets
+longer, the effect moves away from pure distortion into a region that's more
+like a mixture of distortion and compression.
 
 I use this a lot as a sound design trick on bass guitars and stuff like that, by
 putting the compressor *after* a reverb. If you like the particular kind of
@@ -344,7 +365,7 @@ without distorting.
 
 This kind of compression I honestly don't know much about and I don't have the
 "ear" to set correctly. The idea is to put a compressor on a bus that has
-a bunch of different elements (even the master sometimes). Loud things like the
+a bunch of different elements (even the master bus). Loud things like the
 kick and snare will trigger the compressor, and a carefully-set longish release
 will create a rhythmic pumping effect in time with the music. I'm sure this is
 a really important use of compression in certain genres but I don't use it all
@@ -353,7 +374,7 @@ that often.
 #### Compression for transient control
 
 You can also use compression to add or remove transients from a percussion
-sample (for example).
+sample.
 
 To remove a transient, just use a fast attack time so the compressor reacts
 quickly and brings down the transient closer to the level of the remaining body
@@ -378,7 +399,8 @@ transient. Try this out on a bassy kick sample to hear what I mean.
 ### Distortion
 
 The most obvious way to use distortion is as a sound design tool, such as how an
-electric guitar's signal is distorted to acheive its characteristic sound.
+electric guitar's signal is distorted to acheive its characteristic sound. Have
+fun experimenting with that!
 
 Distortion is also an extremely important mixing tool for making midrangey
 things (like vocal chops) audible in a loud and bright mix without having to
@@ -399,20 +421,21 @@ extreme levels of distortion with less dry/wet mix (so that there's lots of
 distortion but it's quiet), instead of using less distortion on 100%. Think of
 the amount of distortion (i.e. the gain with which you're pushing the signal
 into the distortion) as shaping the tone of what the distortion sounds like and
-the dry/wet knob is there to set the amount of that tone that you want to hear.
+the dry/wet knob is there to set the amount of that tone that you want to hear
+mixed in with the dry signal.
 
 There's a problem with that, though, which is that when you use a dry/wet knob,
 turning it more to the wet side will reduce the volume of the original signal.
-Usually, that's not what you want, if you're trying to make something more
-audible in a mix. Usually, it's better to add distortion in parallel, so the dry
-signal remains the same volume, and you mix in a small amount of the
-heavily-distorted signal. To do that, you can either set up a parallel effect
-rack with the fully-distorted signal on one channel and fully-dry signal on
-another, and then bring in the distortion by raising the gain of the distorted
-channel. If your distortion effect has an output gain knob, you can also acheive
-this more quickly by leaving the dry/wet around 10% (so the dry signal isn't
-attenuated very much) and boosting the distorted signal like crazy so that it's
-audible even though it's only on 10% wet. (Decapitator makes this really easy.)
+Usually that's not what you want if you're trying to make something more audible
+in a mix. Instead, it's better to add distortion in parallel, so the dry signal
+remains the same volume, and you mix in a small amount of the heavily-distorted
+signal. To do that, you can either set up a parallel effect rack with the
+fully-distorted signal on one channel and fully-dry signal on another, and then
+bring in the distortion by raising the gain of the distorted channel. Or, if
+your distortion effect has an output gain knob, you can also achieve this more
+quickly by leaving the dry/wet around 10% (so the dry signal isn't attenuated
+very much) and boosting the distorted signal like crazy so that it's audible
+even though it's only on 10% wet. (Decapitator makes this really easy.)
 
 It's crucial to understand that distortion is nonlinear, so the level of the
 signal going into the distortion effect will change how it sounds. You have to
@@ -424,7 +447,23 @@ the loud parts will get distorted noticably more than the quiet parts.
 
 ### Reverb & delay
 
-valhalla vintageverb
+I'm really bad at reverb so I can't offer much advice, even to my past self.
+I've gotten better at it, but it wasn't though any kind of communicable
+knowledge. One thing that did really help was using Valhalla VintageVerb,
+because it's closer to what I usually want out of my reverb in its default
+setting. Over time, I guess I learned to adjust the decay, mix, predelay, size,
+and everything else more carefully. I wish I could say more but this is really
+something I need to get better at by a huge amount.
+
+One tip is that you'll almost always want to set reverb in the context of the
+mix, because if you set reverb on everything with the solo button on, when it
+all gets put together there will be far too much reverb. To make a really wet
+sounding mix, it's enough to douse one or a couple of the elements in reverb,
+and everything else can be relatively dry.
+
+It's also interesting to use delays instead of reverb (or delay following
+a less-wet reverb). A lot of the effect in Pink Floyd music that I really like
+comes from delays rather than reverb. So experiment!
 
 ### Percussion transients
 
@@ -440,7 +479,7 @@ other out.
 (This is another reason not to side-chain directly to the kick and snare, if you
 side-chained directly to the kick then messed with the kick's transient, it
 would change the shape of the side-chain ducking, so you'd have to go back and
-adjust that compressor again.)
+adjust the side-chaining again.)
 
 ### Mastering: compression and clipping
 
@@ -452,21 +491,23 @@ adjust that compressor again.)
   a comfortable volume then switch over to a verse and make sure it has the same
   clarify (shouldn't be as "loud" but things should be just as audible)
 
+- send some stuff "around" the compression/clipping
+
 ### Mix referencing
 
 - reference your own shit
 - time between comparison (even a second of silence can fuck it up)
 
-### Mix translation
+### Mix translation & listening environment
 
 - relying on very high freq's for presence fails
 - auraton
 - magic is in the midrange (quote someone)
 
-### Listening environment & headphones
-
 - listen quiet so you have less sound coming from your room and less distortion
   from the speakers
+- def need to use multiple playback devices, even of the 'studio reference'
+  kind.
 
 Artistsic and psychological stuff
 -----------------------------------------
@@ -519,24 +560,26 @@ To counter these kinds of feelings, I find it helpful to,
   sound like noise. Eventually, the mathematician would discover that certain
   members of the set produce strong emotional feelings in humans when played
   audibly. The mathematician could get really good at "finding" members that
-  produce these feelings, at which point they are actually an artist. The line
-  between "creation" and "discovery" is really blurred. I suspect the reason
-  a lot of artists sometimes feel like a higher power is directing their
-  creativity is because creating great music is a lot more like *discovering*
-  great music then we might like to think. The space of WAV files is a public
-  resource shared between all of us, and so we're all better off when someone
-  discovers something new and exciting.
+  produce these feelings, at which point they are more of an artist than
+  a mathematician. The line between "creation" and "discovery" is really
+  blurred. I suspect the reason a lot of artists sometimes feel like a higher
+  power is directing their creativity is because creating great music is a lot
+  more like *discovering* great music then we might like to think. The space of
+  WAV files is a public resource shared between all of us, and so we're all
+  better off when someone discovers something new and exciting there.
 - Make music for yourself. You will find that certain of your tracks will take
   on great emotional meaning *for you* even if nobody else likes them and you
   see tons of flaws in them. Even my very first shitty tracks bring back some
   pretty deep memories of what it was like and how I felt when I first started
-  producing.
+  producing. You'll be grateful for the music you've made, even with its flaws.
 
 Becoming a great artist really seems be an exercise in murdering your ego. The
-moment you accept that you are great at something is the momemnt you stop trying
-to improve. There's a really delicate balance between being proud of what you've
-made and recognizing how far you still have to go to acheive mastery. **Learn to
-have a [Beginner's Mind](https://mindfulambition.net/beginners-mind/).**
+moment you accept that you are great at something is the moment you stop trying
+to improve. But at the same time if you don't celebrate your development, it's
+easy to lose hope. There's a really delicate balance between being proud of what
+you've made and recognizing how far you still have to go to achieve mastery.
+**It helps to learn to have a [Beginner's
+Mind](https://mindfulambition.net/beginners-mind/).**
 
 My favorite VSTs
 ---------------------------------------------------
@@ -560,15 +603,16 @@ promotion here!).
   and LFOs is super straightforward. It's popular too, so there are so lots of
   presets available on the Internet. Don't get too caught up trying to design
   sounds completely in Serum using only its built-in effects, I get better
-  results when I use it to generate bright full-spectrum sounds that I then
-  process and filter in my DAW.
+  results when I use it to generate the starting point of a sound and then I do
+  most of the sound-design work with other effects in my DAW.
 - [Valhalla
   VintageVerb](https://valhalladsp.com/shop/reverb/valhalla-vintage-verb/) would
   be my choice if I could only have one reverb. I struggled for a long time trying to
   get Pro-R and others to sound good; Valhalla VintageVerb is great
   out-of-the-box for what I usually want to acheive. I felt like I really
   started to "understand" reverb once I started playing with this plugin,
-  probably because its default setting is already really close to what I like.
+  probably because its default setting is already really close to what I like
+  and the interface emphasizes the important controls.
 - [Decapitator](https://www.soundtoys.com/product/decapitator/). In the same
   way that I didn't start to "get" reverb until I had VintageVerb, I didn't
   really understand how to use distortion until I got decapitator. I use it
@@ -593,12 +637,10 @@ promotion here!).
 - [FabFilter Pro-L
   2](https://www.fabfilter.com/products/pro-l-2-limiter-plug-in). There's
   nothing too spectacular about this plugin, but it's always on my master bus
-  and I leave it open on a second monitor as a loudness/level meter and to make
-  sure there are no true peaks above -0.3db because supposedly that's something
-  you want to do to make sure your track compresses to MP3 properly (I usually
-  have some kind of distortion/saturation before it, so it's very rarely ever
-  reducing gain by more than half a dB, but sometimes I do use it legtimately as
-  a limiter).
+  and I leave it open on a second monitor as a loudness/level meter. I usually
+  have some kind of distortion/clipping before it, so it's very rarely ever
+  reducing gain by more than half a dB and only during infrequent peaks that get through,
+  but sometimes I do use it legitimately as a limiter.
 
 Other great resources
 -------------------------
