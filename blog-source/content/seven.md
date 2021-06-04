@@ -95,9 +95,9 @@ And the fifth,
 Once again, the cabinets’ symbols grow in apparent complexity the further down
 the hallway you go, but shrinking so that they never take up more space. “I must
 be able to find one of the symbols I saw in the previous room!” you think, but
-quickly realize that the symbols you saw before were far too complex. In this
-ordering, they would be miles and miles into the room, if they could even be
-found here at all.
+you quickly realize that the symbols you saw before were far too complex. In
+this ordering, they would be miles and miles into the room, if they could even
+be found here at all.
 
 You decide to walk down the room anyway to see if you can find an end. A
 considerable distance down the hallway, you find yet another heavily-worn
@@ -111,7 +111,7 @@ number, this time a much larger one,  18408600335515421047. “This is probably
 another door-number,” you think, “but I could never make it there.” In an
 adjacent cabinet, you find another vial of fluid, but the fluid is glowing so
 brightly that it burns. You slam the cabinet door shut to protect your eyes, but
-not before you caught a glimpse of the same large number written on it, its
+not before catching a glimpse of the same large number written on it, its
 afterimage now fading from view.
 
 Still in a state of curiosity, you leave the room and decide to enter a random
