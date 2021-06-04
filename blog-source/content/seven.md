@@ -26,9 +26,7 @@ To your left in this new room, you find a series of cabinets. On the cabinet
 doors are inscribed markings, totally inscrutable to you. You’re intrigued,
 since the markings seem to be packing more and more complexity into the same
 amount of space as the hallway extends, reminiscent of the decreasing font size
-of the numbers on the main hallway’s doors. You reason that these could be
-numbers, too, written in some alien way. Thinking about numbers comes easy to
-you, although you aren’t sure why.
+of the numbers on the main hallway’s doors.
 
 You take a number of steps forward and open what you later counted to be the
 eighth cabinet from the door, which stood out to you because of its substantial
@@ -128,10 +126,10 @@ loud, so you leave.
 Now beginning to worry that this is all too weird, you run down the hallway
 towards where you began and open doors haphazardly in an effort to find out just
 what is going on. Behind door 97, the cabinets are again labeled with what look
-like polynomials, but their insides seem to be voids containing blotches that
-look like spiral galaxies in the far-off distance. In 67, the cabinets are
-labeled by grids of putrid, decaying biological matter. “This is insane!” you
-say out loud. “What is this place?” In 47, the labels are jars of pebbles;
+like polynomials, but their insides are black voids containing blotches of light
+that appear to be spiral galaxies in the far-off distance. In 67, the cabinets
+are labeled by grids of putrid, decaying biological matter. “This is insane!”
+you say out loud. “What is this place?” In 47, the labels are jars of pebbles;
 you’re glad that it’s something sane this time, but inside the cabinets you find
 unfamiliar machines whirring away!
 
@@ -153,5 +151,5 @@ label. “This must be the exit!” You rush toward it and fly through without
 giving it any second thought. Suddenly you find yourself weightless and
 drifting. The hallway is now behind you and quickly receding into the distance.
 *It’s black*. There are no other buildings or structures, no world, not even a
-surface. There is nothing but a dim glow from the faraway hall, and precisely
-seven stars in the sky.
+surface. There is nothing but a dim glow from the now-faraway hall, and
+precisely seven stars in the sky.
