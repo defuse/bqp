@@ -66,7 +66,7 @@ blackness descends down the hallway. The far-off distance begins to dim as you
 head towards door 107.
 
 <center>
-***
+\*\*\*
 </center>
 
 Some moments later, you arrive at door 107. You swing the door open to reveal
