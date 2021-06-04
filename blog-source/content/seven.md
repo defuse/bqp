@@ -38,7 +38,7 @@ symbol on its door isn’t quite possible to reproduce here, but it looked
 something like,
 
 <center>
-<span style="font-size: 55pt;">♅</span>
+<span style="font-size: 100pt;">♅</span>
 </center>
 
 You open the cabinet’s creaky door to find some parchment, heavily worn, with an
