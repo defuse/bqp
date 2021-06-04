@@ -14,7 +14,7 @@ accommodate larger-and-larger numbers on the identically-sized placards.
 
 Thinking nothing of the strange situation you are in, you decide to enter door
 seven, the one that happens to be beside you at this particular moment. Inside,
-it’s pitch black, but there’s a cord hanging from the ceiling illuminated with
+it’s pitch black, but there’s a cord hanging from the ceiling illuminated by
 light from the hallway. You pull the string, and a light directly inside the
 room turns on. It’s followed by another a bit further down, then another, and
 another in a sequence of lights illuminating down what you realize is yet
@@ -50,8 +50,8 @@ even stranger symbol drawn on it,
 
 Above this symbol is a number, “107”, written in the very same typeface as the
 numbers on the main doors. You open an adjacent cabinet, the one to the right
-labeled ♆, which is much less worn---only the eighth cabinet seems to be
-worn---to find more parchment. This time, the parchment reads,
+labeled ♆, which is much less worn—only the eighth cabinet seems to be
+worn—to find more parchment. This time, the parchment reads,
 
 ![Strange Symbol]({filename}/images/seven/Seven-TMbeta.png)
 
@@ -77,7 +77,7 @@ Some moments later, you arrive at door 107. You swing the door open to reveal
 another light-cord and, after waiting a brief moment for the illumination, you
 see what at first appears to be a duplicate of the hallway in the last room. As
 you begin to worry you were wrong about the meaning of “107” and that the long
-long walk here was pointless, you notice that the symbols on *these* cabinets’
+walk here was pointless, you notice that the symbols on *these* cabinets’
 doors are all of the *same* strange form that you found on the parchment in room
 seven! The first cabinet to your left reads,
 
@@ -102,8 +102,8 @@ be found here at all.
 You decide to walk down the room anyway to see if you can find an end. A
 considerable distance down the hallway, you find yet another heavily-worn
 cabinet standing out from the rest. By this point, you’ve lost count of exactly
-how many cabinets you’ve passed, but you must have walked past a little over a
-hundred, and the room still seems to have no end.
+how many cabinets you’ve passed, but it must have been a little over a hundred,
+and the room still seems to have no end.
 
 You open the disheveled cabinet, and inside you find not parchment this time but
 a *vial*, a vial full of dimly-glowing fluid. Written on the vial is another
@@ -126,11 +126,11 @@ loud, so you leave.
 Now beginning to worry that this is all too weird, you run down the hallway
 towards where you began and open doors haphazardly in an effort to find out just
 what is going on. Behind door 97, the cabinets are again labeled with what look
-like polynomials, but their insides are black voids containing blotches of light
+like polynomials, but their insides are black voids with blotches of light
 that appear to be spiral galaxies in the far-off distance. In 67, the cabinets
 are labeled by grids of putrid, decaying biological matter. “This is insane!”
-you say out loud. “What is this place?” In 47, the labels are jars of pebbles;
-you’re glad that it’s something sane this time, but inside the cabinets you find
+you say out loud. “What is this place?” In 47, the labels are jars of pebbles.
+You’re glad that it’s something sane this time, but inside the cabinets you find
 unfamiliar machines whirring away!
 
 Finally you come to 37 where you find cabinets labeled by ordinary numbers,
