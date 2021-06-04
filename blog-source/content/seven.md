@@ -37,19 +37,21 @@ though it had been opened far too many times before. The exact shape of the
 symbol on its door isn’t quite possible to reproduce here, but it looked
 something like,
 
-♅ (TODO)
+<center>
+<span style="font-size: 55pt;">♅</span>
+</center>
 
 You open the cabinet’s creaky door to find some parchment, heavily worn, with an
 even stranger symbol drawn on it,
 
-TODO (image)
+![Strange Symbol]({filename}/images/seven/seven-TMalpha.png)
 
 Above this symbol is a number, “107”, written in the very same typeface as the
 numbers on the main doors. You open an adjacent cabinet, the one to the right
 labeled ♆, which is much less worn---only the eighth cabinet seems to be
 worn---to find more parchment. This time, the parchment reads,
 
-TODO (image)
+![Strange Symbol]({filename}/images/seven/seven-TMbeta.png)
 
 You can’t make sense of what the symbol means, but it has above it the same
 number again, 107. You open a few more cabinets nearby, the ones labeled ♃, ♄,
@@ -77,15 +79,16 @@ long walk here was pointless, you notice that the symbols on *these* cabinets’
 doors are all of the *same* strange form that you found on the parchment in room
 seven! The first cabinet to your left reads,
 
-TODO (image)
+
+![Strange Symbol]({filename}/images/seven/seven-TM0.png)
 
 And the second,
 
-TODO (image)
+![Strange Symbol]({filename}/images/seven/seven-TM1.png)
 
 And the fifth,
 
-TODO (image)
+![Strange Symbol]({filename}/images/seven/seven-TM2.png)
 
 Once again, the cabinets’ symbols grow in apparent complexity the further down
 the hallway you go, but shrinking so that they never take up more space. “I must
