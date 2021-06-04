@@ -37,9 +37,13 @@ though it had been opened far too many times before. The exact shape of the
 symbol on its door isn’t quite possible to reproduce here, but it looked
 something like,
 
+<br/><br/>
+
 <center>
 <span style="font-size: 100pt;">♅</span>
 </center>
+
+<br/>
 
 You open the cabinet’s creaky door to find some parchment, heavily worn, with an
 even stranger symbol drawn on it,
