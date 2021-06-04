@@ -3,7 +3,7 @@ Date: 2021-06-04
 Slug: seven
 Category: Philosophy
 Status: published
-Image: images/seven.jpg
+Image: images/seven2.jpg
 
 You awaken, feeling rather groggy, to find yourself in a narrow hallway. It
 seems to extend off to infinity, you can’t quite make out if it ends or not. On
