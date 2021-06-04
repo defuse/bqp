@@ -206,3 +206,13 @@ blockquote {
 .twitter-tweet {
     margin: 0 auto;
 }
+
+.toc {
+    display: table;
+    width: auto;
+}
+
+/* TOC heading in bold */
+.toc .toctitle {
+    font-weight: bold;
+}

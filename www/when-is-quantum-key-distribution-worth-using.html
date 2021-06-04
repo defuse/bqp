@@ -67,7 +67,7 @@ cryptography perform in each will make a fair comparison. You can build a secure
 channel in each scenario with either QKD or conventional cryptography, but they
 will rely on different assumptions, and we obviously want to pick the one whose
 assumptions are most likely to be true.</p>
-<h2>Conventional Cryptography</h2>
+<h2 id="conventional-cryptography">Conventional Cryptography</h2>
 <p>In the private setup scenario, the best Alice and Bob can do with conventional
 cryptography is to exchange some secret key in private and then build the secure
 channel out of a cipher like AES and some hash function like BLAKE2. If the
@@ -104,7 +104,7 @@ on today (RSA, Diffie-Hellman, elliptic curves, etc.) can all be broken by
 a quantum computer if one is ever built, but there are new kinds of public key
 encryption <a href="https://pqcrypto.org/">being developed</a> that should be secure
 against quantum computers.</p>
-<h2>Quantum Key Distribution</h2>
+<h2 id="quantum-key-distribution">Quantum Key Distribution</h2>
 <p>QKD schemes like BB84 generally assume Alice and Bob can already talk to each
 other over an authenticated (but potentially wiretapped) channel and then
 provide information-theoretic security under that assumption. To fit QKD into
@@ -145,7 +145,7 @@ eliminates our reliance on any kind of computational-hardness-based
 cryptography. In the public setup scenario, perfectly-implemented QKD eliminates
 our reliance on public key cryptography and eases our reliance on symmetric
 cryptography.</p>
-<h2>Implementation Vulnerabilities</h2>
+<h2 id="implementation-vulnerabilities">Implementation Vulnerabilities</h2>
 <p>From the analysis I've given so far, one might be tempted to conclude that QKD
 is better because it eliminates assumptions. In both setup scenarios QKD builds
 a secure channel assuming less than conventional cryptography, so it's more
@@ -190,7 +190,7 @@ right.</p>
 remains secure even if the adversary can make limited modifications to the
 device. It would prevent these kinds of vulnerabilities too but I'm not aware of
 any commercial QKD systems using it.</p>
-<h2>The Bottom Line</h2>
+<h2 id="the-bottom-line">The Bottom Line</h2>
 <p>I personally place a lot of trust in our current best symmetric cryptography.
 I don't think AES or SHA3 will ever be broken. On the other hand I wouldn't bet
 that the kinds of public-key encryption that quantum computers can break (RSA,
@@ -222,7 +222,7 @@ to consider:</p>
    implementation vulnerability is found in the future? Will your QKD supplier
    give you free replacements when vulnerabilities are found?</li>
 </ol>
-<h2>Extra Reading</h2>
+<h2 id="extra-reading">Extra Reading</h2>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=YaiYn6sQqlw">Challenges to Physical Security of Today’s Quantum Technologies</a> (90 minute talk).</li>
 <li><a href="https://arxiv.org/abs/1512.07990">Attacks on practical quantum key distribution systems (and how to prevent them)</a></li>

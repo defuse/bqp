@@ -41,7 +41,7 @@ settings, it will find the password in its lookup table, and return it to you.</
 issue</a>. If you have
 cryptography experience, and you want to help Qubes fix this problem, please go
 read the comments on that issue and lend them a helping hand!</p>
-<h2>Technical Details</h2>
+<h2 id="technical-details">Technical Details</h2>
 <p>The contents of <code>backup-header.hmac</code> is the output of the command <code>openssl dgst
 -sha512 -hmac '&lt;the password&gt;' backup-header</code>. This computes the HMAC-SHA512 of
 the contents of the <code>backup-header</code> file using the password as the HMAC key. By
